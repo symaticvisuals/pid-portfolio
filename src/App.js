@@ -1,11 +1,12 @@
-import { Text } from "@chakra-ui/react";
+import React from "react";
 import "./App.css";
+import Hero from "./pages/Hero";
 
 function App() {
 	return (
-		<div>
-			<Text>Welcome to PID</Text>
-		</div>
+		<React.Fragment>
+			<Hero />
+		</React.Fragment>
 	);
 }
 
