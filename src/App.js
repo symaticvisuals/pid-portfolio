@@ -1,17 +1,17 @@
-import { ThemeProvider, Box } from "@material-ui/core";
+import { Box, ThemeProvider } from "@material-ui/core";
 import React from "react";
 import "./App.css";
 import Hero from "./pages/Hero";
 import theme from "./styles/theme";
 
 function App() {
-	return (
-		<Box bg='black' w='100vw'>
-			<ThemeProvider theme={theme}>
-				<Hero />
-			</ThemeProvider>
-		</Box>
-	);
+  return (
+    <Box bg="black" w="100vw">
+      <ThemeProvider theme={theme}>
+        <Hero />
+      </ThemeProvider>
+    </Box>
+  );
 }
 
 export default App;
