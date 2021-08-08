@@ -1,34 +1,36 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import { makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import logo from "../images/logo.png";
-
+const useStyles = makeStyles((theme) => ({
+	root: {
+		padding: "30px",
+		color: "white",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "space-evenly",
+		width: "100%",
+	},
+	navLinks: {
+		fontWeight: "500",
+		fontSize: "1.3em",
+		padding: "0 30px",
+		fontFamily: "Sora, sans-serif",
+	},
+}));
 function Navbar() {
+	const classes = useStyles();
 	return (
-		<Box justifyContent='center' w='100%'>
-			<Box
-				p={4}
-				color='white'
-				display='flex'
-				alignItems='center'
-				justifyContent='space-evenly'
-				w='100%'
-			>
+		<Box justifyContent='center'>
+			<Box p={4} className={classes.root}>
 				<Box display='flex'>
-					<Text mx={5} variant='navLinks'>
-						About
-					</Text>
-					<Text mx={5} variant='navLinks'>
-						Services
-					</Text>
+					<Typography className={classes.navLinks}>About</Typography>
+					<Typography className={classes.navLinks}>Services</Typography>
 				</Box>
-				<img src={logo} alt='brand logo' width='160px' height='auto'></img>
+				<img src={logo} alt='brand logo' width='180px' height='auto'></img>
 				<Box display='flex'>
-					<Text mx={5} variant='navLinks'>
-						Our Work
-					</Text>
-					<Text mx={5} variant='navLinks'>
-						Contact Us
-					</Text>
+					<Typography className={classes.navLinks}>Our Work</Typography>
+					<Typography className={classes.navLinks}>Contact Us</Typography>
 				</Box>
 			</Box>
 		</Box>

@@ -1,12 +1,17 @@
+import { Box } from "@chakra-ui/react";
+import { ThemeProvider } from "@material-ui/core";
 import React from "react";
 import "./App.css";
 import Hero from "./pages/Hero";
+import theme from "./styles/theme";
 
 function App() {
 	return (
-		<React.Fragment>
-			<Hero />
-		</React.Fragment>
+		<Box bg='black' w='100vw'>
+			<ThemeProvider theme={theme}>
+				<Hero />
+			</ThemeProvider>
+		</Box>
 	);
 }
 

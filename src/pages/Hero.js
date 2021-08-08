@@ -1,3 +1,4 @@
+import { Box } from "@material-ui/core";
 import React from "react";
 import AboutUsSection from "./AboutUsSection";
 import HeroSection from "./HeroSection";
@@ -5,11 +6,20 @@ import Navbar from "./Navbar";
 
 function Hero() {
 	return (
-		<div style={{ background: "black", minHeight: "100vh", width: "100%" }}>
+		<Box
+			style={{
+				background: "#13171A",
+				height: "100vh",
+				width: "100%",
+				margin: 0,
+				padding: 0,
+				overflowX: "hidden",
+			}}
+		>
 			<Navbar />
 			<HeroSection />
-			<AboutUsSection />
-		</div>
+			{/* <AboutUsSection /> */}
+		</Box>
 	);
 }
 
