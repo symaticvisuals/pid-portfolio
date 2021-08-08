@@ -1,11 +1,4 @@
-import {
-	Typography,
-	Box,
-	Grid,
-	Button,
-	TextField,
-	InputBase,
-} from "@material-ui/core";
+import { Typography, Box, Grid, Button, InputBase } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
 import heroImage from "../images/heroImage.png";

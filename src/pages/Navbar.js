@@ -1,5 +1,4 @@
-import { Box } from "@chakra-ui/react";
-import { makeStyles, Typography } from "@material-ui/core";
+import { makeStyles, Typography, Box } from "@material-ui/core";
 import React from "react";
 import logo from "../images/logo.png";
 const useStyles = makeStyles((theme) => ({

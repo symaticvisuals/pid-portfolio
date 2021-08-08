@@ -1,6 +1,6 @@
 import { Box } from "@material-ui/core";
 import React from "react";
-import AboutUsSection from "./AboutUsSection";
+
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 
