@@ -1,4 +1,5 @@
 import { ThemeProvider, Box } from "@material-ui/core";
+
 import React from "react";
 import "./App.css";
 import Hero from "./pages/Hero";

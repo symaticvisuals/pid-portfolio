@@ -33,9 +33,21 @@ const theme = createTheme({
 				"-webkit-text-fill-color": "transparent",
 				"line-height": "1.1em",
 			},
+			h4: {
+				fontSize: "1.6rem",
+				fontFamily: "Sora, sans-serif",
+				fontWeight: 600,
+				color: "white",
+			},
 			h6: {
 				fontFamily: "Sora, sans-serif",
 				fontWeight: 500,
+				color: "white",
+			},
+			body2: {
+				fontSize: "0.8rem",
+				fontFamily: "Sora, sans-serif",
+				fontWeight: 300,
 				color: "white",
 			},
 		},

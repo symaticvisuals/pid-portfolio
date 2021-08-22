@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		paddingTop: "10vh",
 		padding: "0 5vw",
+		height: "60vh",
 	},
 }));
 function HeroSection() {
@@ -25,9 +26,8 @@ function HeroSection() {
 				>
 					<Box>
 						<Typography variant='h1'>Design Your Confort Zone</Typography>
-						<Typography variant='h6' style={{ marginTop: "30px" }}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<Typography variant='h6' style={{ marginTop: "5px" }}>
+							Bringing your dreams to reality since 1976
 						</Typography>
 						<Box
 							display='flex'
