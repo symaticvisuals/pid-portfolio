@@ -1,3 +1,5 @@
+import image1 from "./images/1.jpg";
+import image2 from "./images/7.jpg";
 const HeroSection = {
 	title: "Design Your Confort Zone",
 	description:
@@ -68,12 +70,189 @@ const services = [
 			"Throughout the construction process, regular site visits take place to ensure accuracy in the build. The PID team believes communication is essential to the development of the project. All changes throughout the process are issued through written documentation of site instructions and approved by clients before processed.",
 	},
 ];
+
+// BLACKBERRYS
+// INNISFREE
+// OCTAVE
+// I’D shoes
+// Crocs
+// RAYMONDS
+// MEENA BAZAR
+// DIWAN SAHEB
+// HUGO BOSS
+// CHUNMUN STORES
+// Spencers Hyper market
+// STANMAX
+// Neerus
+// kasr
+// Looks salon
+// Van heusen
+// Bindals
+// Indian terrain
+// PC JEWELLERS
+// Madura Garments
+// Delco Shoes
+// Wings Shoes
+// GIVO
+// PROVOGUE
+// Madame
+// Colorplus
+// Neeta Lulla - DLF Emporio
+// Love Moschino
+// Red Tape
+// Bombay Selection
+// U.S Polo
+// Allen Solly /Louis Phillipe
+// Sulwhasoo - Ongoing
+// Maisonduraine Salons - Ongoing
+// Shervani Hill Top Hotel, Nainital & Delhi
+// The duty free shop at International Airpot
+// BuzzRestaurant Bar City center mall Gurgaon
+// Reliance Energy BPO, Noida
+// Sapient Technologies BPO, Gurgaon
+// Indigo Airlines BPO, Gurgaon
+// Best Western Hotel Ghaziabad
+
 const ourWorks = [
-	{ title: "BlackBerry's" },
-	{ title: "Innisfree" },
-	{ title: "I'D SHOES" },
-	{ title: "Octave" },
-	{ title: "Raymond's" },
+	{
+		title: "BlackBerry's",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Innisfree",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "I'D SHOES",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{ title: "Octave", locations: [{ location: image1 }, { location: image2 }] },
+	{
+		title: "Raymond's",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Meeena Bazaar",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Diwan Sakeb",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Hugo Boss",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Chunmun Stores",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Spencer's Hyper market",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{ title: "Stanmax", locations: [{ location: image1 }, { location: image2 }] },
+	{ title: "Neerus", locations: [{ location: image1 }, { location: image2 }] },
+	{ title: "kasr", locations: [{ location: image1 }, { location: image2 }] },
+	{
+		title: "Looks salon",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Van heusen",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{ title: "Bindals", locations: [{ location: image1 }, { location: image2 }] },
+	{
+		title: "Indian Terrain",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "PC JEWELLERS",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Madura Garments",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Delco Shoes",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Wings Shoes",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{ title: "GIVO", locations: [{ location: image1 }, { location: image2 }] },
+	{
+		title: "Provogue",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{ title: "Madame", locations: [{ location: image1 }, { location: image2 }] },
+	{
+		title: "Colorplus",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Neeta Lulla - DLF Emporio",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Love Moschino",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Red Tape",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Bombay Selection",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "U.S Polo",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Allen Solly /Louis Phillipe",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Sulwhasoo - Ongoing",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Maisonduraine Salons - Ongoing",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Shervani Hill Top Hotel, Nainital & Delhi",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "The duty free shop at International Airpot",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "BuzzRestaurant Bar City center mall Gurgaon",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Reliance Energy BPO, Noida",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Sapient Technologies BPO, Gurgaon",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Indigo Airlines BPO, Gurgaon",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
+	{
+		title: "Best Western Hotel Ghaziabad",
+		locations: [{ location: image1 }, { location: image2 }],
+	},
 ];
 
 export { AboutUsSection, HeroSection, ourWorks, services };
