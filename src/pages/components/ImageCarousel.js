@@ -1,4 +1,4 @@
-import { Box, makeStyles, Typography, useMediaQuery } from "@material-ui/core";
+import { Box, useMediaQuery } from "@material-ui/core";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { LeftArrow, RightArrow } from "./Arrows";
