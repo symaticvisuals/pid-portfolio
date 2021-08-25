@@ -1,10 +1,11 @@
 import { Box, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
+import about from "../images/about.svg";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		paddingTop: "14vh",
 		padding: "0 5vw",
-		textAlign: "center",
+		textAlign: "left",
 	},
 }));
 function AboutUsSection() {
@@ -12,16 +13,29 @@ function AboutUsSection() {
 	return (
 		<Box className={classes.root}>
 			<Box>
-				<Typography variant='h2'>Know more About Us</Typography>
+				<Typography
+					variant='h2'
+					style={{ textAlign: "center", marginBottom: "30px" }}
+				>
+					Know more About Us
+				</Typography>
 				<Box
 					style={{
 						paddingTop: "20px",
 						display: "flex",
-						flexDirection: "column",
+						justifyContent: "space-around",
 						alignItems: "center",
+						width: "100%",
 					}}
 				>
-					<Box style={{ width: "70%" }}>
+					<Box>
+						<img
+							src={about}
+							alt='text'
+							style={{ width: "40vw", objectFit: "contain" }}
+						/>
+					</Box>
+					<Box style={{ paddingLeft: "30px" }}>
 						<Typography variant='h6'>
 							We have been in this field more than twenty-five years and have
 							executed a vast variety of projects including showrooms, offices,

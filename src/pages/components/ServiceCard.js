@@ -1,30 +1,46 @@
 import { Grid, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
+import ServiceModal from "./ServiceModal";
 const useStyles = makeStyles((theme) => ({
 	root: {
-		"background": "#1C2226",
-		"width": "400px",
-		"minHeight": "210px",
+		"background": "linear-gradient(#1C2226, #13171A)",
+		"width": "350px",
+		"height": "auto",
 		"margin": "10px",
 		"padding": "20px",
 		"display": "flex",
 		"flexDirection": "column",
 		"&:hover": {
 			boxShadow: "0px 0px 70px rgb(13, 16, 18)",
+
 			transition: "all .2s ease-in",
-			transform: "scale(1.04)",
+			transform: "scale(1.1)",
+
 			// background: "#e5e5e5",
-			border: "1px solid #7074F7",
+			// border: "1px solid #7074F7",
 			background: "rgb(13, 16, 18)",
 			cursor: "pointer",
 		},
 	},
 }));
 function ServiceCard(props) {
+	const modal = () => {
+		console.log("Clicked");
+		return <ServiceModal />;
+	};
 	const classes = useStyles();
 	return (
-		<Grid item xs={12} sm={6} md={3}>
+		<Grid item xs={12} sm={6} md={3} onClick={modal}>
 			<div className={classes.root}>
+				<div style={{ display: "flex", alignItems: "flex-start" }}>
+					<div
+						style={{
+							width: "100%",
+							height: "5px",
+							background: "linear-gradient(to right, #6777FF 0%, #FF386E 100%)",
+						}}
+					/>
+				</div>
 				<div style={{ display: "flex", justifyContent: "flex-end" }}>
 					<Typography
 						variant='h5'
@@ -32,6 +48,7 @@ function ServiceCard(props) {
 							color: "#38454D",
 							fontFamily: "Sora, sans-serif",
 							fontWeight: "bold",
+							marginTop: "10px",
 						}}
 					>
 						0{props.index + 1}
@@ -45,15 +62,6 @@ function ServiceCard(props) {
 					>
 						{props.description}
 					</Typography>
-				</div>
-				<div style={{ display: "flex", alignItems: "flex-end", flexGrow: 1 }}>
-					<div
-						style={{
-							width: "100%",
-							height: "5px",
-							background: "linear-gradient(to right, #6777FF 0%, #FF386E 100%)",
-						}}
-					/>
 				</div>
 			</div>
 		</Grid>

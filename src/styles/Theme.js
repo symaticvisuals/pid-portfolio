@@ -41,8 +41,10 @@ const theme = createTheme({
 			},
 			h6: {
 				fontFamily: "Sora, sans-serif",
-				fontWeight: 500,
+				fontWeight: 400,
 				color: "white",
+				fontSize: "1.2rem",
+				textAlign: "justify",
 			},
 			body2: {
 				fontSize: "0.8rem",
@@ -53,14 +55,17 @@ const theme = createTheme({
 		},
 		MuiButton: {
 			text: {
-				background: "linear-gradient(to right, #6777FF 0%, #FF386E 100%)",
-				borderRadius: "none",
-				color: "black",
-				borderRadius: "0",
-				fontFamily: "Sora, sans-serif",
-				padding: "20px 40px",
-				fontWeight: 700,
+				"background": "#6777FF",
+				"borderRadius": "none",
+				"color": "black",
+				"borderRadius": "0",
+				"fontFamily": "Sora, sans-serif",
+				"padding": "15px 20px",
+				"fontWeight": 700,
 				// fontSize: "17px",
+				"&:hover": {
+					background: "#4A55FF",
+				},
 			},
 		},
 		MuiInputBase: {

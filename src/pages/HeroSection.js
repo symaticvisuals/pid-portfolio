@@ -8,6 +8,23 @@ const useStyles = makeStyles((theme) => ({
 		padding: "0 5vw",
 		height: "60vh",
 	},
+	input: {
+		outline: "none",
+		border: "none",
+		flexGrow: 1,
+		background: "none",
+		color: "white",
+		fontSize: "1rem",
+		fontFamily: "Sora, sans-serif",
+		paddingLeft: "15px",
+	},
+	emailBox: {
+		display: "flex",
+		alignItems: "center",
+		marginTop: "30px",
+		width: "90%",
+		border: "2px solid #7272F4",
+	},
 }));
 function HeroSection() {
 	const classes = useStyles();
@@ -29,29 +46,26 @@ function HeroSection() {
 						<Typography variant='h6' style={{ marginTop: "5px" }}>
 							Bringing your dreams to reality since 1976
 						</Typography>
-						<Box
-							display='flex'
-							style={{ alignItems: "center", marginTop: "30px", width: "90%" }}
-						>
-							<InputBase
-								placeholder='Enter your Email ID'
-								style={{ width: "15em", flexGrow: 1 }}
+						<Box className={classes.emailBox}>
+							<input
+								type='email'
+								name=''
+								id=''
+								placeholder='Enter Your Email'
+								className={classes.input}
 							/>
-							<Button style={{ width: "15em" }}>BOOK NOW</Button>
+							<Button style={{ height: "auto" }}>BOOK NOW</Button>
 						</Box>
 					</Box>
 				</Grid>
 				<Grid item xs={12} md={6} style={{}}>
-					<Box
-						style={{
-							"backgroundImage": `url(${heroImage})`,
-							"backgroundSize": "cover",
-							"height": "55vh",
-							"boxShadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-							"-webkit-box-shadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-							"-moz-box-shadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-						}}
-					></Box>
+					<Box>
+						<img
+							src={heroImage}
+							alt=''
+							style={{ width: "100%", objectFit: "contain" }}
+						/>
+					</Box>
 				</Grid>
 			</Grid>
 		</Box>

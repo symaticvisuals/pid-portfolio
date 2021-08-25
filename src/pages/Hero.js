@@ -5,6 +5,7 @@ import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import AboutUsSection from "./AboutUsSection";
 import OurWorks from "./OurWorks";
+import Footer from "./Footer";
 
 function Hero() {
 	return (
@@ -23,6 +24,7 @@ function Hero() {
 			<AboutUsSection />
 			<ServiceSection />
 			<OurWorks />
+			<Footer />
 		</Box>
 	);
 }
