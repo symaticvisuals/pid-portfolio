@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 function ServiceSection() {
 	const classes = useStyles();
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} id="services">
 			<Typography variant='h2' className={classes.title}>
 				Services
 			</Typography>

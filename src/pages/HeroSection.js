@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 function HeroSection() {
 	const classes = useStyles();
 	return (
-		<Box className={classes.root}>
+		<Box className={classes.root} id="hero">
 			<Grid container spacing={6}>
 				<Grid
 					item
