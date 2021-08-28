@@ -25,36 +25,53 @@ const theme = createTheme({
         "fontWeight": 600,
         "background": "#6777FF",
 
-        "background":
-          "-webkit-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
-        "background": "-moz-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
-        "background": "linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
-        "-webkit-background-clip": "text",
-        "-webkit-text-fill-color": "transparent",
-        "line-height": "1.1em",
-      },
-      h6: {
-        fontFamily: "Sora, sans-serif",
-        fontWeight: 500,
-        color: "white",
-      },
-    },
-    MuiButton: {
-      text: {
-        background: "linear-gradient(to right, #6777FF 0%, #FF386E 100%)",
-        borderRadius: "none",
-        color: "black",
-        borderRadius: "0",
-        fontFamily: "Sora, sans-serif",
-        padding: "20px 40px",
-        fontWeight: 700,
-        // fontSize: "17px",
-      },
-    },
-    MuiInputBase: {
-      root: {
-        borderRadius: "0",
-        color: "white",
+				"background":
+					"-webkit-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
+				"background": "-moz-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
+				"background": "linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
+				"-webkit-background-clip": "text",
+				"-webkit-text-fill-color": "transparent",
+				"line-height": "1.1em",
+			},
+			h4: {
+				fontSize: "1.6rem",
+				fontFamily: "Sora, sans-serif",
+				fontWeight: 600,
+				color: "white",
+			},
+			h6: {
+				fontFamily: "Sora, sans-serif",
+				fontWeight: 400,
+				color: "white",
+				fontSize: "1.2rem",
+				textAlign: "justify",
+			},
+			body2: {
+				fontSize: "0.8rem",
+				fontFamily: "Sora, sans-serif",
+				fontWeight: 300,
+				color: "white",
+			},
+		},
+		MuiButton: {
+			text: {
+				"background": "#6777FF",
+				"borderRadius": "none",
+				"color": "black",
+				"borderRadius": "0",
+				"fontFamily": "Sora, sans-serif",
+				"padding": "15px 20px",
+				"fontWeight": 700,
+				// fontSize: "17px",
+				"&:hover": {
+					background: "#4A55FF",
+				},
+			},
+		},
+		MuiInputBase: {
+			root: {
+				borderRadius: "0",
+				color: "white",
 
         padding: "15px 40px",
         height: "100%",

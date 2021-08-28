@@ -1,8 +1,9 @@
-import { Box, ThemeProvider } from "@material-ui/core";
+import { ThemeProvider, Box } from "@material-ui/core";
+
 import React from "react";
 import "./App.css";
 import Hero from "./pages/Hero";
-import theme from "./styles/theme";
+import theme from "./styles/Theme";
 
 function App() {
   return (

@@ -1,62 +1,75 @@
-import { Box, Button, Grid, InputBase, Typography } from "@material-ui/core";
+import { Typography, Box, Grid, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
 import heroImage from "../images/heroImage.png";
 const useStyles = makeStyles((theme) => ({
-  root: {
-    paddingTop: "10vh",
-    padding: "0 5vw",
-  },
+	root: {
+		paddingTop: "10vh",
+		padding: "0 5vw",
+		height: "60vh",
+	},
+	input: {
+		outline: "none",
+		border: "none",
+		flexGrow: 1,
+		background: "none",
+		color: "white",
+		fontSize: "1rem",
+		fontFamily: "Sora, sans-serif",
+		paddingLeft: "15px",
+	},
+	emailBox: {
+		display: "flex",
+		alignItems: "center",
+		marginTop: "30px",
+		width: "90%",
+		border: "2px solid #7272F4",
+	},
 }));
 function HeroSection() {
-  const classes = useStyles();
-  return (
-    <Box className={classes.root}>
-      <Grid container spacing={6}>
-        <Grid
-          item
-          xs={12}
-          md={6}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-          }}
-        >
-          <Box>
-            <Typography variant="h1">Design Your Confort Zone</Typography>
-            <Typography variant="h6" style={{ marginTop: "30px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </Typography>
-            <Box
-              display="flex"
-              style={{ alignItems: "center", marginTop: "30px", width: "90%" }}
-            >
-              <InputBase
-                placeholder="Enter your Email ID"
-                style={{ width: "15em", flexGrow: 1 }}
-              />
-              <Button style={{ width: "15em" }}>BOOK NOW</Button>
-            </Box>
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={6} style={{}}>
-          <Box
-            style={{
-              "backgroundImage": `url(${heroImage})`,
-              "backgroundSize": "cover",
-              "height": "55vh",
-              "boxShadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-              "-webkit-box-shadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-              "-moz-box-shadow": "-12px 12px 0px 4px rgba(108,117,251,1)",
-            }}
-          >
-          </Box>
-        </Grid>
-      </Grid>
-    </Box>
-  );
+	const classes = useStyles();
+	return (
+		<Box className={classes.root} id="hero">
+			<Grid container spacing={6}>
+				<Grid
+					item
+					xs={12}
+					md={6}
+					style={{
+						display: "flex",
+						flexDirection: "column",
+						justifyContent: "center",
+					}}
+				>
+					<Box>
+						<Typography variant='h1'>Design Your Confort Zone</Typography>
+						<Typography variant='h6' style={{ marginTop: "5px" }}>
+							Bringing your dreams to reality since 1976
+						</Typography>
+						<Box className={classes.emailBox}>
+							<input
+								type='email'
+								name=''
+								id=''
+								placeholder='Enter Your Email'
+								className={classes.input}
+							/>
+							<Button style={{ height: "auto" }}>BOOK NOW</Button>
+						</Box>
+					</Box>
+				</Grid>
+				<Grid item xs={12} md={6} style={{}}>
+					<Box>
+						<img
+							src={heroImage}
+							alt=''
+							style={{ width: "100%", objectFit: "contain" }}
+						/>
+					</Box>
+				</Grid>
+			</Grid>
+		</Box>
+	);
 }
 
 export default HeroSection;
