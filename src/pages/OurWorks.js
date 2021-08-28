@@ -42,7 +42,7 @@ function OurWorks() {
 		setValue(index);
 	};
 	return (
-		<div style={{ marginTop: "10vh" }}>
+		<div style={{ marginTop: "10vh" }} id='works'>
 			<Typography variant='h2' style={{ textAlign: "center" }}>
 				Our Works
 			</Typography>
