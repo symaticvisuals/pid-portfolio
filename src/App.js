@@ -7,7 +7,7 @@ import theme from "./styles/Theme";
 
 function App() {
 	return (
-		<Box bg='black' w='100vw'>
+		<Box w='100vw'>
 			<ThemeProvider theme={theme}>
 				<Hero />
 			</ThemeProvider>

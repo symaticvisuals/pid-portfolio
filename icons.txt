@@ -1,0 +1,26 @@
+//Concept Development
+<i class="fas fa-code"></i>
+
+//Space Planning
+<i class="fas fa-ruler-horizontal"></i>
+
+//Lightning Design
+<i class="fas fa-bolt"></i>
+
+//Wood Work Design
+<i class="fas fa-pencil-alt"></i>
+
+//Furniture Sourcing
+<i class="fab fa-sourcetree"></i>
+
+//Interior Styling
+<i class="fas fa-warehouse"></i>
+
+//Custom Furniture Design
+<i class="fas fa-couch"></i>
+
+//Construction Drawings
+<i class="fas fa-drafting-compass"></i>
+
+//Project Management
+<i class="fas fa-project-diagram"></i>

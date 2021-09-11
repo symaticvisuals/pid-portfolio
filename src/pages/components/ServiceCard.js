@@ -4,22 +4,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		"background": "linear-gradient(#1C2226, #13171A)",
+		"background": "linear-gradient(#E7ECF6, #FFF)",
 		"width": "350px",
 		"height": "auto",
 		"margin": "10px",
 		"padding": "20px",
 		"display": "flex",
 		"flexDirection": "column",
+		// "background": "#E7ECF6",
 		"&:hover": {
-			boxShadow: "0px 0px 70px rgb(13, 16, 18)",
+			boxShadow: "0px 0px 70px rgb(255, 255, 255)",
 
 			transition: "all .2s ease-in",
 			transform: "scale(1.1)",
 
 			// background: "#e5e5e5",
 			// border: "1px solid #7074F7",
-			background: "rgb(13, 16, 18)",
+			// background: "rgb(13, 16, 18)",
 			cursor: "pointer",
 		},
 	},
@@ -35,8 +36,7 @@ function ServiceCard(props) {
 							style={{
 								width: "100%",
 								height: "5px",
-								background:
-									"linear-gradient(to right, #6777FF 0%, #FF386E 100%)",
+								background: "#010101",
 							}}
 						/>
 					</div>
@@ -57,7 +57,7 @@ function ServiceCard(props) {
 						<Typography variant='h4'>{props.title}</Typography>
 						<Typography
 							variant='body2'
-							style={{ marginTop: "8px", textAlign: "justify" }}
+							style={{ marginTop: "8px", textAlign: "justify", color: "black" }}
 						>
 							{props.description}
 						</Typography>

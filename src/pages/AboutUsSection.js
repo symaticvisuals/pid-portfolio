@@ -1,13 +1,20 @@
 import { Box, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import about from "../images/about.svg";
+
 import AboutUsCounter from "./components/AboutUsCounter";
 const useStyles = makeStyles((theme) => ({
 	root: {
-		paddingTop: "14vh",
+		paddingTop: "3vh",
 		padding: "0 5vw",
 		textAlign: "left",
+	},
+	aboutSection: {
+		paddingTop: "20px",
+		display: "flex",
+		justifyContent: "space-evenly",
+		alignItems: "center",
+		width: "100%",
 	},
 }));
 function AboutUsSection() {
@@ -16,32 +23,15 @@ function AboutUsSection() {
 		<Box className={classes.root} id='about'>
 			<Box>
 				<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-					<Typography
-						variant='h2'
-						style={{ textAlign: "center", marginBottom: "30px" }}
-					>
-						Know more About Us
-					</Typography>
-				</ScrollAnimation>
-				<AboutUsCounter />
-				<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-					<Box
-						style={{
-							paddingTop: "20px",
-							display: "flex",
-							justifyContent: "space-evenly",
-							alignItems: "center",
-							width: "100%",
-						}}
-					>
-						<Box>
-							<img
-								src={about}
-								alt='text'
-								style={{ width: "30vw", objectFit: "contain" }}
-							/>
-						</Box>
-						<Box style={{ paddingLeft: "30px", width: "40vw" }}>
+					<Box className={classes.aboutSection}>
+						<Box
+							style={{
+								width: "40vw",
+								display: "flex",
+								flexDirection: "column",
+							}}
+						>
+							<Typography variant='h2'>About Us</Typography>
 							<Typography variant='h6'>
 								We have been in this field more than twenty-five years and have
 								executed a vast variety of projects including showrooms,
@@ -57,6 +47,9 @@ function AboutUsSection() {
 								design. We are having skilled & experienced manpower with all
 								types of necessary machinery & equipment.
 							</Typography>
+						</Box>
+						<Box style={{ display: "flex", alignItems: "center" }}>
+							<AboutUsCounter />
 						</Box>
 					</Box>
 				</ScrollAnimation>
