@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		width: "100%",
 		height: "10vh",
-		backgroundColor: "#0D1012",
+		backgroundColor: "#E8ECF6",
 		marginTop: "40px",
 		display: "flex",
 		alignItems: "center",

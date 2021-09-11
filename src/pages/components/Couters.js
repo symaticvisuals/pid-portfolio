@@ -8,12 +8,20 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "center",
 		alignItems: "center",
 		flexDirection: "column",
-		padding: "0 15px",
+		padding: "15px 15px",
+		margin: "10px 5px",
+		background: "#E7ECF6",
+		height: "140px",
+		width: "140px",
+		borderRadius: "20px",
 	},
 	heading: {
-		fontSize: "3rem",
+		fontSize: "2rem",
+		fontWeight: 600,
 	},
-	description: {},
+	description: {
+		textAlign: "center",
+	},
 }));
 function Couters({ number, description }) {
 	const classes = useStyles();
@@ -38,10 +46,10 @@ function Couters({ number, description }) {
 
 	return (
 		<div className={classes.root}>
-			<Typography variant='h2' className={classes.heading}>
+			<Typography variant='h6' className={classes.heading}>
 				{count}+
 			</Typography>
-			<Typography variant='h6' className={classes.description}>
+			<Typography variant='body1' className={classes.description}>
 				{description}
 			</Typography>
 		</div>

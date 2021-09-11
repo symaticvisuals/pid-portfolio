@@ -55,7 +55,7 @@ function OurWorks() {
 						variant='scrollable'
 						scrollButtons='auto'
 						style={{
-							color: "white",
+							color: "#010101",
 							textTransform: "none",
 							padding: "1em 2em",
 						}}

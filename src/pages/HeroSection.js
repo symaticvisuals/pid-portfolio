@@ -1,75 +1,62 @@
-import { Typography, Box, Grid, Button } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
-import heroImage from "../images/heroImage.png";
+import hero from "../images/hero.png";
+
 const useStyles = makeStyles((theme) => ({
-	root: {
-		paddingTop: "10vh",
-		padding: "0 5vw",
-		height: "60vh",
-	},
-	input: {
-		outline: "none",
-		border: "none",
-		flexGrow: 1,
-		background: "none",
-		color: "white",
-		fontSize: "1rem",
-		fontFamily: "Sora, sans-serif",
-		paddingLeft: "15px",
-	},
-	emailBox: {
-		display: "flex",
-		alignItems: "center",
-		marginTop: "30px",
-		width: "90%",
-		border: "2px solid #7272F4",
-	},
+  root: {
+    paddingTop: "3vh",
+    padding: "0 5vw",
+    height: "70vh",
+    display: "flex",
+    alignItems: "flex-start",
+    justifyContent: "center",
+  },
+  text: {
+    textAlign: "center",
+  },
+  t1: {
+    fontFamily: "Alex Brush",
+    fontSize: "1.9rem",
+    fontWeight: "600",
+    color: "#474BFF",
+  },
+  t3: {
+    fontWeight: "600",
+    lineHeight: "0.9em",
+  },
+  companies: {
+    background: "#E7ECF6",
+    display: "flex",
+    justifyContent: "center",
+  },
 }));
 function HeroSection() {
-	const classes = useStyles();
-	return (
-		<Box className={classes.root} id="hero">
-			<Grid container spacing={6}>
-				<Grid
-					item
-					xs={12}
-					md={6}
-					style={{
-						display: "flex",
-						flexDirection: "column",
-						justifyContent: "center",
-					}}
-				>
-					<Box>
-						<Typography variant='h1'>Design Your Confort Zone</Typography>
-						<Typography variant='h6' style={{ marginTop: "5px" }}>
-							Bringing your dreams to reality since 1976
-						</Typography>
-						<Box className={classes.emailBox}>
-							<input
-								type='email'
-								name=''
-								id=''
-								placeholder='Enter Your Email'
-								className={classes.input}
-							/>
-							<Button style={{ height: "auto" }}>BOOK NOW</Button>
-						</Box>
-					</Box>
-				</Grid>
-				<Grid item xs={12} md={6} style={{}}>
-					<Box>
-						<img
-							src={heroImage}
-							alt=''
-							style={{ width: "100%", objectFit: "contain" }}
-						/>
-					</Box>
-				</Grid>
-			</Grid>
-		</Box>
-	);
+  const classes = useStyles();
+  return (
+    <Box className={classes.root} id="hero">
+      <Box className={classes.text}>
+        <Typography variant="h4" className={classes.t1}>
+          Customize your Personal Space
+        </Typography>
+        <Typography variant="h1">DESIGN YOUR</Typography>
+        <Typography variant="h1" className={classes.t3}>
+          COMFORT ZONE
+        </Typography>
+        <Typography variant="h5" className={classes.t4}>
+          Bringing your Dreams to Reality since 1976
+        </Typography>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <img src={hero} alt="hero" style={{ height: "40vh" }} />
+        </div>
+      </Box>
+    </Box>
+  );
 }
 
 export default HeroSection;

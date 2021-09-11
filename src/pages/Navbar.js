@@ -2,14 +2,17 @@ import { Box, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-scroll";
 import logo from "../images/logo.png";
+import facebook from "../images/logo/fb.png";
+import twitter from "../images/logo/twitter.png";
+import instagram from "../images/logo/instagram.png";
 const useStyles = makeStyles((theme) => ({
 	root: {
-		padding: "30px",
-		color: "white",
+		padding: "20px",
+		color: "black",
 		display: "flex",
 		alignItems: "center",
 		justifyContent: "space-evenly",
-		width: "100%",
+		background: "#E7ECF6",
 	},
 	navLinks: {
 		"fontWeight": "500",
@@ -21,20 +24,16 @@ const useStyles = makeStyles((theme) => ({
 			borderBottom: "2px solid #4A55FF",
 		},
 	},
+	socialMedia: {
+		width: "20px",
+		margin: "0 10px",
+	},
 }));
 function Navbar() {
 	const classes = useStyles();
 	return (
 		<Box justifyContent='center'>
 			<Box p={4} className={classes.root}>
-				<Box display='flex'>
-					<Link to='about' spy={true} smooth={true}>
-						<Typography className={classes.navLinks}>About</Typography>
-					</Link>
-					<Link to='services' spy={true} smooth={true}>
-						<Typography className={classes.navLinks}>Services</Typography>
-					</Link>
-				</Box>
 				<Link to='hero' spy={true} smooth={true}>
 					<img
 						src={logo}
@@ -45,11 +44,35 @@ function Navbar() {
 					></img>
 				</Link>
 				<Box display='flex'>
+					<Link to='about' spy={true} smooth={true}>
+						<Typography className={classes.navLinks}>About</Typography>
+					</Link>
+					<Link to='services' spy={true} smooth={true}>
+						<Typography className={classes.navLinks}>Services</Typography>
+					</Link>
+
 					<Link to='works' spy={true} smooth={true}>
 						<Typography className={classes.navLinks}>Our Work</Typography>
 					</Link>
-
+					<Typography className={classes.navLinks}>Team</Typography>
 					<Typography className={classes.navLinks}>Contact Us</Typography>
+				</Box>
+				<Box display='flex'>
+					<img
+						src={facebook}
+						alt='facebook'
+						className={classes.socialMedia}
+					></img>
+					<img
+						src={twitter}
+						alt='twitter'
+						className={classes.socialMedia}
+					></img>
+					<img
+						src={instagram}
+						alt='instagram'
+						className={classes.socialMedia}
+					></img>
 				</Box>
 			</Box>
 		</Box>
