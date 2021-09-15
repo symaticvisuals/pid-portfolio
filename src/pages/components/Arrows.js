@@ -1,6 +1,6 @@
 import React from "react";
 import { TiArrowLeftThick } from "react-icons/ti";
-import {TiArrowRightThick} from "react-icons/ti";
+import { TiArrowRightThick } from "react-icons/ti";
 
 function LeftArrow(props) {
 	const { className, style, onClick } = props;
@@ -8,7 +8,7 @@ function LeftArrow(props) {
 		<React.Fragment>
 			<TiArrowLeftThick
 				style={
-					onClick ? { ...style, color: "white" } : { ...style, display: "none" }
+					onClick ? { ...style, color: "black" } : { ...style, display: "none" }
 				}
 				onClick={onClick}
 				className={className}
@@ -18,24 +18,19 @@ function LeftArrow(props) {
 	);
 }
 
-
-
-
-
 function RightArrow(props) {
-    const {className, style, onClick} = props;
-    return (
-        <React.Fragment>
-            <TiArrowRightThick
-                style={onClick
-                    ? {...style, color: "white"}
-                    : {...style, display: "none"}}
-                onClick={onClick}
-                className={className}
-                fontSize="large"
-            />
-        </React.Fragment>
-    );
+	const { className, style, onClick } = props;
+	return (
+		<React.Fragment>
+			<TiArrowRightThick
+				style={
+					onClick ? { ...style, color: "black" } : { ...style, display: "none" }
+				}
+				onClick={onClick}
+				className={className}
+				fontSize='large'
+			/>
+		</React.Fragment>
+	);
 }
-export {LeftArrow, RightArrow};
-
+export { LeftArrow, RightArrow };
