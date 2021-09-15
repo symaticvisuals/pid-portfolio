@@ -7,28 +7,30 @@ import AboutUsSection from "./AboutUsSection";
 import OurWorks from "./OurWorks";
 import Footer from "./Footer";
 import Companies from "./Companies";
+import OurTeam from "./OurTeam";
 
 function Hero() {
-  return (
-    <Box
-      style={{
-        background: "#fff",
-        minHeight: "100vh",
-        width: "100%",
-        margin: 0,
-        padding: 0,
-        overflowX: "hidden",
-      }}
-    >
-      <Navbar />
-      <HeroSection />
-      <Companies />
-      <AboutUsSection />
-      <ServiceSection />
-      <OurWorks />
-      <Footer />
-    </Box>
-  );
+	return (
+		<Box
+			style={{
+				background: "#fff",
+				minHeight: "100vh",
+				width: "100%",
+				margin: 0,
+				padding: 0,
+				overflowX: "hidden",
+			}}
+		>
+			<Navbar />
+			<HeroSection />
+			<Companies />
+			<AboutUsSection />
+			<ServiceSection />
+			<OurWorks />
+			<OurTeam />
+			<Footer />
+		</Box>
+	);
 }
 
 export default Hero;

@@ -53,9 +53,11 @@ function OurWorks() {
 						onChange={handleChange}
 						aria-label='simple tabs example'
 						variant='scrollable'
+						indicatorColor='primary'
 						scrollButtons='auto'
 						style={{
 							color: "#010101",
+
 							textTransform: "none",
 							padding: "1em 2em",
 						}}

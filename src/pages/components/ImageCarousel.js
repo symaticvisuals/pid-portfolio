@@ -12,7 +12,7 @@ function ImageCarousel({ Images }) {
 	const showArrow = isXs || isSm ? false : true;
 	const settings = {
 		infinite: false,
-		centerPadding: "20px",
+
 		slidesToShow: 1,
 		swipeToSlide: true,
 		nextArrow: <RightArrow />,
@@ -20,10 +20,11 @@ function ImageCarousel({ Images }) {
 		arrows: showArrow,
 		autoplay: true,
 		autoplaySpeed: 2000,
+		lazyLoad: true,
 	};
 	return (
 		<React.Fragment>
-			<Box>
+			<Box style={{ borderRadius: "20px" }}>
 				<Slider {...settings} ref={slider}>
 					{Images.map((item, idx) => {
 						return <ImageCard Location={item.location} />;
