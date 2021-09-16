@@ -82,15 +82,7 @@ const AboutUsSection = {
 		"Our field of work includes wooden works, ceiling, flooring, civil, metal works & electrical works and all other kind of interiors. It will be a great opportunity for us if you give us a chance to serve you. Our work will be of high quality & as per design. We are having skilled & experienced manpower with all types of necessary machinery & equipment.",
 };
 
-// Concept Development
-// Space Planning
-// Lightning Design
-// Wood work Design
-// Furniture Sourcing
-// Interior Styling
-// Custom Furniture Design
-// Construction Drawings
-// Project Management
+
 const services = [
 	{
 		title: "Concept Development",

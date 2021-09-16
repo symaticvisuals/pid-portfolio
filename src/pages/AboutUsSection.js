@@ -8,6 +8,15 @@ const useStyles = makeStyles((theme) => ({
 		paddingTop: "3vh",
 		padding: "0 5vw",
 		textAlign: "left",
+		[theme.breakpoints.down("sm")]: {},
+	},
+	container: {
+		width: "40vw",
+		display: "flex",
+		flexDirection: "column",
+		[theme.breakpoints.down("sm")]: {
+			width: "100%",
+		},
 	},
 	aboutSection: {
 		paddingTop: "20px",
@@ -15,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "space-evenly",
 		alignItems: "center",
 		width: "100%",
+		[theme.breakpoints.down("sm")]: {
+			flexDirection: "column",
+			textAlign: "center",
+		},
 	},
 }));
 function AboutUsSection() {
@@ -24,13 +37,7 @@ function AboutUsSection() {
 			<Box>
 				<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
 					<Box className={classes.aboutSection}>
-						<Box
-							style={{
-								width: "40vw",
-								display: "flex",
-								flexDirection: "column",
-							}}
-						>
+						<Box className={classes.container}>
 							<Typography variant='h2'>About Us</Typography>
 							<Typography variant='h6'>
 								We have been in this field more than twenty-five years and have

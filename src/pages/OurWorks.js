@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Box, Tab, Tabs, Typography } from "@material-ui/core";
+import { Box, makeStyles, Tab, Tabs, Typography } from "@material-ui/core";
 import { ourWorks } from "../Content";
 
 import ImageCarousel from "./components/ImageCarousel";
+const useStyles = makeStyles((theme) => ({
+	imageContainer: {
+		width: "80%",
+		[theme.breakpoints.down("sm")]: {
+			width: "100%",
+		},
+	},
+}));
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -36,6 +44,7 @@ function a11yProps(index) {
 }
 
 function OurWorks() {
+	const classes = useStyles();
 	const [value, setValue] = useState(0);
 
 	const handleChange = (event, index) => {
@@ -47,7 +56,7 @@ function OurWorks() {
 				Our Works
 			</Typography>
 			<div style={{ display: "flex", justifyContent: "center" }}>
-				<div style={{ width: "80%" }}>
+				<div className={classes.imageContainer}>
 					<Tabs
 						value={value}
 						onChange={handleChange}
