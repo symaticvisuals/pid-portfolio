@@ -27,7 +27,7 @@ function Hero() {
 			<AboutUsSection />
 			<ServiceSection />
 			<OurWorks />
-			<OurTeam />
+			{/* <OurTeam /> */}
 			<Footer />
 		</Box>
 	);

@@ -1,11 +1,18 @@
-import { Box, useMediaQuery } from "@material-ui/core";
+import { Box, makeStyles, useMediaQuery } from "@material-ui/core";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { LeftArrow, RightArrow } from "./Arrows";
 
 import ImageCard from "./ImageCard";
+const useStyles = makeStyles((theme) => ({
+	"box": { borderRadius: "20px" },
+	"&:hover": {
+		transform: "scale(1.1)",
+	},
+}));
 
 function ImageCarousel({ Images }) {
+	const classes = useStyles();
 	const slider = useRef(null);
 	const isXs = useMediaQuery((theme) => theme.breakpoints.down("xs"));
 	const isSm = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -24,7 +31,7 @@ function ImageCarousel({ Images }) {
 	};
 	return (
 		<React.Fragment>
-			<Box style={{ borderRadius: "20px" }}>
+			<Box className={classes.box}>
 				<Slider {...settings} ref={slider}>
 					{Images.map((item, idx) => {
 						return <ImageCard Location={item.location} />;
