@@ -1,16 +1,17 @@
 import { Grid, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import line from "../../images/line.png";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		"background": "linear-gradient(#E7ECF6, #FFF)",
-		"width": "350px",
+		"width": "auto",
 		"height": "auto",
 		"margin": "10px",
 		"padding": "20px",
 		"display": "flex",
 		"flexDirection": "column",
+		"borderRadius": "30px",
 		// "background": "#E7ECF6",
 		"&:hover": {
 			boxShadow: "0px 0px 70px rgb(255, 255, 255)",
@@ -24,24 +25,21 @@ const useStyles = makeStyles((theme) => ({
 			cursor: "pointer",
 		},
 	},
+	image: {
+		width: "200px",
+		objectFit: "cover",
+
+		// position: "absolute",
+	},
 }));
 function ServiceCard(props) {
 	const classes = useStyles();
 	return (
-		<Grid item xs={12} sm={6} md={3}>
+		<Grid item xs={12} sm={6} md={4} xl={3}>
 			<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
 				<div className={classes.root}>
-					<div style={{ display: "flex", alignItems: "flex-start" }}>
-						<div
-							style={{
-								width: "100%",
-								height: "5px",
-								background: "#010101",
-							}}
-						/>
-					</div>
 					<div style={{ display: "flex", justifyContent: "flex-end" }}>
-						<Typography
+						{/* <Typography
 							variant='h5'
 							style={{
 								color: "#38454D",
@@ -51,13 +49,27 @@ function ServiceCard(props) {
 							}}
 						>
 							0{props.index + 1}
-						</Typography>
+						</Typography> */}
 					</div>
 					<div>
-						<Typography variant='h4'>{props.title}</Typography>
+						<div
+							style={{
+								display: "flex",
+								alignItems: "center",
+								flexDirection: "column",
+							}}
+						>
+							<Typography variant='h4'>{props.title}</Typography>
+							<img src={line} alt='' className={classes.image} />
+						</div>
 						<Typography
 							variant='body2'
-							style={{ marginTop: "8px", textAlign: "justify", color: "black" }}
+							style={{
+								marginTop: "8px",
+								textAlign: "justify",
+								color: "black",
+								padding: "10px",
+							}}
 						>
 							{props.description}
 						</Typography>
