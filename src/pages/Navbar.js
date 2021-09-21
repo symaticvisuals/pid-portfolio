@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 function Navbar() {
 	const classes = useStyles();
+
 	return (
 		<Box justifyContent='center'>
 			<Box p={4} className={classes.root}>
@@ -54,9 +55,7 @@ function Navbar() {
 					<Link to='works' spy={true} smooth={true}>
 						<Typography className={classes.navLinks}>Our Work</Typography>
 					</Link>
-					<Link to='team' spy={true} smooth={true}>
-					<Typography className={classes.navLinks}>Team</Typography>
-					</Link>
+
 					<Typography className={classes.navLinks}>Contact Us</Typography>
 				</Box>
 				<Box display='flex'>

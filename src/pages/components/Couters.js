@@ -11,8 +11,8 @@ const useStyles = makeStyles((theme) => ({
 		padding: "15px 15px",
 		margin: "10px 5px",
 		background: "#E7ECF6",
-		height: "140px",
-		width: "140px",
+		height: "180px",
+		width: "180px",
 		borderRadius: "20px",
 	},
 	heading: {

@@ -6,7 +6,7 @@ import AboutUsCounter from "./components/AboutUsCounter";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		paddingTop: "3vh",
-		padding: "0 5vw",
+		// padding: "0 5vw",
 		textAlign: "left",
 		[theme.breakpoints.down("sm")]: {},
 	},
