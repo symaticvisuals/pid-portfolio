@@ -24,12 +24,20 @@ const useStyles = makeStyles((theme) => ({
 			// background: "rgb(13, 16, 18)",
 			cursor: "pointer",
 		},
+		[theme.breakpoints.down("sm")]: {
+			padding: "10px",
+		},
 	},
 	image: {
 		width: "200px",
 		objectFit: "cover",
 
 		// position: "absolute",
+	},
+	heading: {
+		[theme.breakpoints.down("sm")]: {
+			textAlign: "center",
+		},
 	},
 }));
 function ServiceCard(props) {
@@ -38,19 +46,7 @@ function ServiceCard(props) {
 		<Grid item xs={12} sm={6} md={4} xl={3}>
 			<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
 				<div className={classes.root}>
-					<div style={{ display: "flex", justifyContent: "flex-end" }}>
-						{/* <Typography
-							variant='h5'
-							style={{
-								color: "#38454D",
-								fontFamily: "Sora, sans-serif",
-								fontWeight: "bold",
-								marginTop: "10px",
-							}}
-						>
-							0{props.index + 1}
-						</Typography> */}
-					</div>
+					<div style={{ display: "flex", justifyContent: "flex-end" }}></div>
 					<div>
 						<div
 							style={{
@@ -59,7 +55,9 @@ function ServiceCard(props) {
 								flexDirection: "column",
 							}}
 						>
-							<Typography variant='h4'>{props.title}</Typography>
+							<Typography variant='h4' className={classes.heading}>
+								{props.title}
+							</Typography>
 							<img src={line} alt='' className={classes.image} />
 						</div>
 						<Typography

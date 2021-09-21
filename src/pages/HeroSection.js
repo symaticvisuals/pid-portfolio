@@ -6,6 +6,7 @@ import hero from "../images/hero.png";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		paddingTop: "3vh",
+		marginTop: "15vh",
 		padding: "0 5vw",
 		height: "70vh",
 		display: "flex",
@@ -13,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "center",
 		[theme.breakpoints.down("sm")]: {
 			height: "auto",
+			marginTop: "10vh",
 		},
 	},
 	text: {

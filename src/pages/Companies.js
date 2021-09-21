@@ -26,13 +26,22 @@ const useStyles = makeStyles((theme) => ({
 		padding: "2vh 0",
 		[theme.breakpoints.down("sm")]: {
 			borderRadius: "0px",
+			padding: "4vh 0",
 		},
 	},
 	company__image: {
 		width: "14vw",
 		height: "auto",
 		[theme.breakpoints.down("sm")]: {
-			width: "24vw",
+			width: "20vw",
+		},
+	},
+	heading: {
+		fontFamily: "Alex Brush",
+		color: "#909AB3",
+		fontSize: "2rem",
+		[theme.breakpoints.down("sm")]: {
+			fontSize: "1.6rem",
 		},
 	},
 }));
@@ -42,14 +51,7 @@ function Companies() {
 	return (
 		<Box className={classes.root}>
 			<Box className={classes.container}>
-				<Typography
-					variant='h4'
-					style={{
-						fontFamily: "Alex Brush",
-						color: "#909AB3",
-						fontSize: "2rem",
-					}}
-				>
+				<Typography variant='h4' className={classes.heading}>
 					companies we have worked with
 				</Typography>
 				<Box

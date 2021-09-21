@@ -8,9 +8,13 @@ import { SectionChangeContext } from "./Hero";
 
 function VerticleSlider({ work }) {
 	const settings = {
-		dots: true,
+		centerMode: true,
 		infinite: true,
+		centerPadding: "60px",
 		slidesToShow: 3,
+		speed: 500,
+		draggable: true,
+		focusOnSelect: true,
 		slidesToScroll: 1,
 		vertical: true,
 		verticalSwiping: true,
@@ -24,7 +28,6 @@ function VerticleSlider({ work }) {
 	};
 	return (
 		<div>
-			<h2>Vertical Mode with Swipe To Slide</h2>
 			<Slider {...settings}>
 				{work.locations.map((imagePreview, index) => (
 					<WorkShowcasePreview imagePreview={imagePreview} />

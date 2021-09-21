@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box } from "@material-ui/core";
@@ -14,8 +14,31 @@ import ListItemText from "@material-ui/core/ListItemText";
 import facebook from "../../images/logo/fb.png";
 import twitter from "../../images/logo/twitter.png";
 import instagram from "../../images/logo/instagram.png";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
+	root: {
+		display: "flex",
+		justifyContent: "space-between",
+		padding: "20px",
+		background: "transparent",
+		alignItems: "center",
+		zIndex: "1000",
+		position: "fixed",
+		width: "100%",
+		transition: "all 0.2s ease-in-out",
+	},
+	scrollEff: {
+		display: "flex",
+		justifyContent: "space-between",
+		padding: "15px",
+		background: "#E7ECF6",
+		zIndex: "1000",
+		position: "fixed",
+		width: "100%",
+		alignItems: "center",
+		transition: "all 0.2s ease-in-out",
+	},
 	list: {
 		width: 270,
 		display: "flex",
@@ -48,7 +71,15 @@ export default function MobileNavbar() {
 	const [state, setState] = React.useState({
 		right: false,
 	});
-
+	const [navbar, setNavbar] = useState(false);
+	const changeBackground = () => {
+		if (window.scrollY >= 80) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+	window.addEventListener("scroll", changeBackground);
 	const toggleDrawer = (anchor, open) => (event) => {
 		if (
 			event.type === "keydown" &&
@@ -72,25 +103,30 @@ export default function MobileNavbar() {
 			>
 				<div>
 					<List>
-						<ListItem button key='About' className={classes.listLayout}>
-							<ListItemText
-								primary='About'
-								classes={{ primary: classes.text }}
-							></ListItemText>
-						</ListItem>
-
-						<ListItem button key='Services' className={classes.listLayout}>
-							<ListItemText
-								primary='Services'
-								classes={{ primary: classes.text }}
-							></ListItemText>
-						</ListItem>
-						<ListItem button key='Out Work' className={classes.listLayout}>
-							<ListItemText
-								primary='Our Work'
-								classes={{ primary: classes.text }}
-							></ListItemText>
-						</ListItem>
+						<Link to='about' spy={true} smooth={true}>
+							<ListItem button key='About' className={classes.listLayout}>
+								<ListItemText
+									primary='About'
+									classes={{ primary: classes.text }}
+								></ListItemText>
+							</ListItem>
+						</Link>
+						<Link to='services' spy={true} smooth={true}>
+							<ListItem button key='Services' className={classes.listLayout}>
+								<ListItemText
+									primary='Services'
+									classes={{ primary: classes.text }}
+								></ListItemText>
+							</ListItem>
+						</Link>
+						<Link to='works' spy={true} smooth={true}>
+							<ListItem button key='Out Work' className={classes.listLayout}>
+								<ListItemText
+									primary='Our Work'
+									classes={{ primary: classes.text }}
+								></ListItemText>
+							</ListItem>
+						</Link>
 
 						<ListItem button key='Contact Us' className={classes.listLayout}>
 							<ListItemText
@@ -125,15 +161,7 @@ export default function MobileNavbar() {
 	return (
 		<div>
 			<React.Fragment key={"left"}>
-				<div
-					style={{
-						display: "flex",
-						justifyContent: "space-between",
-						padding: "20px 20px",
-						background: "#E7ECF6",
-						alignItems: "center",
-					}}
-				>
+				<div className={navbar === true ? classes.scrollEff : classes.root}>
 					<div>
 						<img
 							src={logo}

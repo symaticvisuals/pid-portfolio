@@ -1,4 +1,4 @@
-import { Box, makeStyles, Typography } from "@material-ui/core";
+import { Box, makeStyles, Typography, useMediaQuery } from "@material-ui/core";
 import { useRef } from "react";
 import Slider from "react-slick";
 
@@ -18,14 +18,26 @@ const useStyles = makeStyles((theme) => ({
 const OurWorksNew = () => {
 	const classes = useStyles();
 	const slider = useRef(null);
-
+	const isSm = useMediaQuery((theme) => theme.breakpoints.down("sm"));
+	const isMd = useMediaQuery((theme) => theme.breakpoints.down("md"));
+	const isLg = useMediaQuery((theme) => theme.breakpoints.down("lg"));
+	const renderSlides = () => {
+		if (isSm) {
+			return 1;
+		} else if (isMd) {
+			return 3;
+		} else if (isLg) {
+			return 4;
+		}
+		return 5;
+	};
 	const settings = {
 		infinite: true,
-		slidesToShow: 4,
+		slidesToShow: renderSlides(),
 		swipeToSlide: true,
 		nextArrow: <RightArrow />,
 		prevArrow: <LeftArrow />,
-		arrows: true,
+		arrows: isSm ? false : true,
 		autoplay: false,
 		autoplaySpeed: 2000,
 		lazyLoad: true,
@@ -33,7 +45,7 @@ const OurWorksNew = () => {
 	};
 
 	return (
-		<div>
+		<div id='works'>
 			<Typography variant='h2' className={classes.heading}>
 				Our Works
 			</Typography>

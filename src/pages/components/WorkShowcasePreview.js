@@ -4,6 +4,9 @@ import React from "react";
 const useStyles = makeStyles((theme) => ({
 	preview: {
 		margin: "0 30px",
+		[theme.breakpoints.down("sm")]: {
+			margin: "10px 10px",
+		},
 	},
 	image: {
 		"width": "100%",

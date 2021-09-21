@@ -5,6 +5,9 @@ import ServiceCard from "./components/ServiceCard";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		marginTop: "10vh",
+		[theme.breakpoints.down("sm")]: {
+			marginTop: "0vh",
+		},
 	},
 	title: {
 		textAlign: "center",
@@ -14,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
 		marginTop: "6vh",
 		marginLeft: "7vw",
 		marginRight: "7vw",
+		[theme.breakpoints.down("sm")]: {
+			marginTop: "2vh",
+		},
 	},
 }));
 
