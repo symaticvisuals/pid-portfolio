@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
 		display: "flex",
 		alignItems: "center",
 		justifyContent: "center",
+		[theme.breakpoints.down("sm")]: {
+			padding: "30px 0",
+		},
 	},
 }));
 function AboutUsCounter() {

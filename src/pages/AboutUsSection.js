@@ -26,7 +26,15 @@ const useStyles = makeStyles((theme) => ({
 		width: "100%",
 		[theme.breakpoints.down("sm")]: {
 			flexDirection: "column",
-			textAlign: "center",
+			// textAlign: "center",
+			paddingLeft: "10px",
+		},
+	},
+	p1: {
+		[theme.breakpoints.down("sm")]: {
+			fontSize: "1rem",
+			padding: "0 10px",
+			textAlign: "left",
 		},
 	},
 }));
@@ -39,14 +47,14 @@ function AboutUsSection() {
 					<Box className={classes.aboutSection}>
 						<Box className={classes.container}>
 							<Typography variant='h2'>About Us</Typography>
-							<Typography variant='h6'>
+							<Typography variant='h6' className={classes.p1}>
 								We have been in this field more than twenty-five years and have
 								executed a vast variety of projects including showrooms,
 								offices, household interiors, departmental stores, exhibitions,
 								hotels, restaurants etc.
 							</Typography>
 							<br />
-							<Typography variant='h6'>
+							<Typography variant='h6' className={classes.p1}>
 								Our field of work includes wooden works, ceiling, flooring,
 								civil, metal works & electrical works and all other kind of
 								interiors. It will be a great opportunity for us if you give us

@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
 		height: "180px",
 		width: "180px",
 		borderRadius: "20px",
+		[theme.breakpoints.down("sm")]: {
+			height: "160px",
+			width: "160px",
+		},
 	},
 	heading: {
 		fontSize: "2rem",
