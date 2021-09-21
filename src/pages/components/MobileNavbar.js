@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box } from "@material-ui/core";
 import Drawer from "@material-ui/core/Drawer";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo/logo-v2.png";
 import List from "@material-ui/core/List";
 
 import ListItem from "@material-ui/core/ListItem";
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
 	list: {
 		width: 270,
 		display: "flex",
-	
+
 		flexDirection: "column",
 		alignItems: "center",
 	},

@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo/logo-v2.png";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		width: "100%",
@@ -17,7 +17,11 @@ function Footer() {
 	const classes = useStyles();
 	return (
 		<div className={classes.root}>
-			<img src={logo} alt='' />
+			<img
+				src={logo}
+				alt=''
+				style={{ width: "100%", objectFit: "contain", height: "6vh" }}
+			/>
 		</div>
 	);
 }

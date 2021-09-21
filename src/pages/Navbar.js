@@ -1,7 +1,7 @@
 import { Box, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-scroll";
-import logo from "../images/logo.png";
+import logo from "../images/logo/logo-v2.png";
 import facebook from "../images/logo/fb.png";
 import twitter from "../images/logo/twitter.png";
 import instagram from "../images/logo/instagram.png";
