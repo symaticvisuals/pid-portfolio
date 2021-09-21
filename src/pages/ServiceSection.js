@@ -12,13 +12,15 @@ const useStyles = makeStyles((theme) => ({
 
 	grid: {
 		marginTop: "6vh",
+		marginLeft: "7vw",
+		marginRight: "7vw",
 	},
 }));
 
 function ServiceSection() {
 	const classes = useStyles();
 	return (
-		<div className={classes.root} id="services">
+		<div className={classes.root} id='services'>
 			<Typography variant='h2' className={classes.title}>
 				Services
 			</Typography>
@@ -33,13 +35,11 @@ function ServiceSection() {
 				>
 					{services.map((service, index) => {
 						return (
-							<div key={index}>
-								<ServiceCard
-									index={index}
-									title={service.title}
-									description={service.description}
-								/>
-							</div>
+							<ServiceCard
+								index={index}
+								title={service.title}
+								description={service.description}
+							/>
 						);
 					})}
 				</Grid>
