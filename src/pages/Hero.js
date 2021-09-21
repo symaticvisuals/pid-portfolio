@@ -1,18 +1,23 @@
 import { Box, useMediaQuery } from "@material-ui/core";
-import React from "react";
+import React, { useState } from "react";
 import ServiceSection from "./ServiceSection";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import AboutUsSection from "./AboutUsSection";
-import OurWorks from "./OurWorks";
+
 import Footer from "./Footer";
 import Companies from "./Companies";
 
 import MobileNavbar from "./components/MobileNavbar";
 import OurWorksNew from "./OurWorksNew";
+import WorkShowcase from "./WorkShowcase";
+
+const SectionChangeContext = React.createContext();
 
 function Hero() {
 	const isSm = useMediaQuery((theme) => theme.breakpoints.down("sm"));
+	const [selected, setSelected] = useState(false);
+	const [work, setWork] = useState({});
 	return (
 		<Box
 			style={{
@@ -30,11 +35,15 @@ function Hero() {
 			<Companies />
 			<AboutUsSection />
 			<ServiceSection />
-			<OurWorksNew />
-			{/* <OurTeam /> */}
+			<SectionChangeContext.Provider
+				value={{ selected, setSelected, work, setWork }}
+			>
+				{selected && work ? <WorkShowcase work={work} /> : <OurWorksNew />}
+			</SectionChangeContext.Provider>
+
 			<Footer />
 		</Box>
 	);
 }
 
-export default Hero;
+export { Hero, SectionChangeContext };

@@ -142,7 +142,12 @@ const services = [
 const ourWorks = [
 	{
 		title: "BlackBerry's",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
@@ -174,7 +179,12 @@ const ourWorks = [
 	},
 	{
 		title: "I'D SHOES",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
@@ -192,7 +202,12 @@ const ourWorks = [
 	},
 	{
 		title: "Raymond's",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
@@ -213,107 +228,212 @@ const ourWorks = [
 	},
 	{
 		title: "Diwan Sakeb",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Hugo Boss",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Chunmun Stores",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Spencer's Hyper market",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Stanmax",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Neerus",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "kasr",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Looks salon",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Van heusen",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Bindals",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Indian Terrain",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "PC JEWELLERS",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Madura Garments",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Delco Shoes",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Wings Shoes",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "GIVO",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Provogue",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Madame",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Colorplus",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Neeta Lulla - DLF Emporio",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Love Moschino",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
@@ -340,62 +460,122 @@ const ourWorks = [
 	},
 	{
 		title: "Bombay Selection",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "U.S Polo",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Allen Solly /Louis Phillipe",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Sulwhasoo - Ongoing",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Maisonduraine Salons - Ongoing",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Shervani Hill Top Hotel, Nainital & Delhi",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "The duty free shop at International Airpot",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "BuzzRestaurant Bar City center mall Gurgaon",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Reliance Energy BPO, Noida",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Sapient Technologies BPO, Gurgaon",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Indigo Airlines BPO, Gurgaon",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 	{
 		title: "Best Western Hotel Ghaziabad",
-		locations: [{ location: image1 }, { location: image2 }],
+		locations: [
+			{ location: image1 },
+			{ location: image2 },
+			{ location: image1 },
+			{ location: image2 },
+		],
 		bestImage: image1,
 	},
 ];

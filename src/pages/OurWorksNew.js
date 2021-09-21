@@ -1,4 +1,4 @@
-import { Box, makeStyles, Typography, useMediaQuery } from "@material-ui/core";
+import { Box, makeStyles, Typography } from "@material-ui/core";
 import { useRef } from "react";
 import Slider from "react-slick";
 
@@ -18,9 +18,7 @@ const useStyles = makeStyles((theme) => ({
 const OurWorksNew = () => {
 	const classes = useStyles();
 	const slider = useRef(null);
-	const isXs = useMediaQuery((theme) => theme.breakpoints.down("xs"));
-	const isSm = useMediaQuery((theme) => theme.breakpoints.down("sm"));
-	const showArrow = isXs || isSm ? false : true;
+
 	const settings = {
 		infinite: true,
 		slidesToShow: 4,
@@ -33,6 +31,7 @@ const OurWorksNew = () => {
 		lazyLoad: true,
 		pauseOnHover: true,
 	};
+
 	return (
 		<div>
 			<Typography variant='h2' className={classes.heading}>
@@ -44,7 +43,7 @@ const OurWorksNew = () => {
 			<Box style={{ margin: "5vh 5vw" }}>
 				<Slider {...settings} ref={slider}>
 					{ourWorks.map((work, index) => (
-						<WorkCard key={index} work={work} />
+						<WorkCard key={index} workObj={work} />
 					))}
 				</Slider>
 			</Box>
