@@ -1,6 +1,3 @@
-import image1 from "./images/1.jpg";
-import image2 from "./images/7.jpg";
-
 //teamMembers
 import vishal from "./images/members/vishalpawar.png";
 import yash from "./images/members/vishalpawar.png";
@@ -34,7 +31,7 @@ import Octave3 from "./images/Photographs/Octave/3.jpg";
 import Octave4 from "./images/Photographs/Octave/4.jpg";
 
 //Redtape
-import Redtape1 from "./images/Photographs/Redtape/1.JPG";
+import Redtape1 from "./images/Photographs/Redtape/1.jpg";
 import Redtape2 from "./images/Photographs/Redtape/2.jpg";
 import Redtape3 from "./images/Photographs/Redtape/3.jpg";
 import Redtape4 from "./images/Photographs/Redtape/4.jpg";
@@ -42,8 +39,8 @@ import Redtape5 from "./images/Photographs/Redtape/5.jpg";
 import Redtape6 from "./images/Photographs/Redtape/6.jpg";
 import Redtape7 from "./images/Photographs/Redtape/7.jpg";
 import Redtape8 from "./images/Photographs/Redtape/8.jpg";
-import Redtape9 from "./images/Photographs/Redtape/9.JPG";
-import Redtape10 from "./images/Photographs/Redtape/10.JPG";
+import Redtape9 from "./images/Photographs/Redtape/9.jpg";
+import Redtape10 from "./images/Photographs/Redtape/10.jpg";
 
 //MeenaBazaar
 import MeenaBazaar1 from "./images/Photographs/MeenaBazaar/1.jpg";
