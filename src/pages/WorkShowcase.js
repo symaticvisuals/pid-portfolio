@@ -8,7 +8,7 @@ import { SectionChangeContext } from "./Hero";
 
 function VerticleSlider({ work }) {
 	const settings = {
-		centerMode: true,
+		// centerMode: true,
 		infinite: true,
 		centerPadding: "60px",
 		slidesToShow: 3,
@@ -30,7 +30,7 @@ function VerticleSlider({ work }) {
 		<div>
 			<Slider {...settings}>
 				{work.locations.map((imagePreview, index) => (
-					<WorkShowcasePreview imagePreview={imagePreview} />
+					<WorkShowcasePreview imagePreview={imagePreview} type='mobile' />
 				))}
 			</Slider>
 		</div>
@@ -55,7 +55,7 @@ function DesktopSlider({ work }) {
 		<div>
 			<Slider {...settings} ref={slider}>
 				{work.locations.map((imagePreview, index) => (
-					<WorkShowcasePreview imagePreview={imagePreview} />
+					<WorkShowcasePreview imagePreview={imagePreview} type='desktop' />
 				))}
 			</Slider>
 		</div>
@@ -105,6 +105,7 @@ function WorkShowcase({ work }) {
 					Back to Project Gallery
 				</button>
 			</div>
+
 			<div>
 				{isSm ? <VerticleSlider work={work} /> : <DesktopSlider work={work} />}
 			</div>

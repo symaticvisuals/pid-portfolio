@@ -6,6 +6,17 @@ import vishal from "./images/members/vishalpawar.png";
 import yash from "./images/members/vishalpawar.png";
 import deepanshu from "./images/members/profile.png";
 
+import hero1 from "./images/Photographs/home page carousel/1.jpg";
+import hero2 from "./images/Photographs/home page carousel/2.jpeg";
+import hero3 from "./images/Photographs/home page carousel/3.jpg";
+import hero4 from "./images/Photographs/home page carousel/4.png";
+import hero5 from "./images/Photographs/home page carousel/5.jpg";
+import hero6 from "./images/Photographs/home page carousel/6.jpg";
+import hero7 from "./images/Photographs/home page carousel/7.jpeg";
+import hero8 from "./images/Photographs/home page carousel/8.jpg";
+import hero9 from "./images/Photographs/home page carousel/9.jpg";
+import hero10 from "./images/Photographs/home page carousel/10.jpg";
+
 //Innisfree
 import Innisfree1 from "./images/Photographs/Innisfree/1.JPG";
 import Innisfree2 from "./images/Photographs/Innisfree/2.JPG";
@@ -79,6 +90,131 @@ import Bellevouise2 from "./images/Photographs/bellevouisepics/2.jpg";
 import Bellevouise3 from "./images/Photographs/bellevouisepics/3.jpg";
 import Bellevouise4 from "./images/Photographs/bellevouisepics/4.jpg";
 
+import Abros1 from "./images/Photographs/abros/1.jpeg";
+import Abros2 from "./images/Photographs/abros/2.jpeg";
+import Abros3 from "./images/Photographs/abros/3.jpeg";
+import Abros4 from "./images/Photographs/abros/4.jpeg";
+import Abros5 from "./images/Photographs/abros/5.jpeg";
+import Abros6 from "./images/Photographs/abros/6.jpeg";
+
+import allenSolly1 from "./images/Photographs/Allen  Solly/1.png";
+import allenSolly2 from "./images/Photographs/Allen  Solly/2.png";
+import allenSolly3 from "./images/Photographs/Allen  Solly/3.png";
+import allenSolly4 from "./images/Photographs/Allen  Solly/4.png";
+
+import blackberry1 from "./images/Photographs/blackberrys/1.png";
+import blackberry2 from "./images/Photographs/blackberrys/2.png";
+import blackberry3 from "./images/Photographs/blackberrys/3.png";
+import blackberry4 from "./images/Photographs/blackberrys/4.png";
+
+import bombay1 from "./images/Photographs/bombay selection/1.png";
+import bombay2 from "./images/Photographs/bombay selection/2.png";
+import bombay3 from "./images/Photographs/bombay selection/3.png";
+import bombay4 from "./images/Photographs/bombay selection/4.png";
+
+import cnmdwarka1 from "./images/Photographs/CNM dwarka/1.jpg";
+import cnmdwarka2 from "./images/Photographs/CNM dwarka/2.jpg";
+import cnmdwarka3 from "./images/Photographs/CNM dwarka/3.jpg";
+import cnmdwarka4 from "./images/Photographs/CNM dwarka/4.jpg";
+
+import colorp1 from "./images/Photographs/colorplus/1.jpeg";
+import colorp2 from "./images/Photographs/colorplus/2.jpeg";
+import colorp3 from "./images/Photographs/colorplus/3.jpeg";
+import colorp4 from "./images/Photographs/colorplus/4.jpeg";
+import colorp5 from "./images/Photographs/colorplus/5.jpeg";
+import colorp6 from "./images/Photographs/colorplus/6.jpeg";
+import colorp7 from "./images/Photographs/colorplus/7.jpeg";
+import colorp8 from "./images/Photographs/colorplus/8.jpeg";
+import colorp9 from "./images/Photographs/colorplus/9.jpeg";
+
+import crocs1 from "./images/Photographs/Crocs/1.jpg";
+import crocs2 from "./images/Photographs/Crocs/2.jpg";
+import crocs3 from "./images/Photographs/Crocs/3.jpg";
+import crocs4 from "./images/Photographs/Crocs/4.jpg";
+import crocs5 from "./images/Photographs/Crocs/5.png";
+import crocs6 from "./images/Photographs/Crocs/6.png";
+
+import ID1 from "./images/Photographs/ID/1.png";
+import ID2 from "./images/Photographs/ID/2.png";
+import ID3 from "./images/Photographs/ID/3.png";
+import ID4 from "./images/Photographs/ID/4.png";
+
+import kasr1 from "./images/Photographs/kasr/1.jpeg";
+import kasr2 from "./images/Photographs/kasr/2.jpeg";
+import kasr3 from "./images/Photographs/kasr/3.jpeg";
+import kasr4 from "./images/Photographs/kasr/4.jpeg";
+import kasr5 from "./images/Photographs/kasr/5.jpeg";
+import kasr6 from "./images/Photographs/kasr/6.jpeg";
+import kasr7 from "./images/Photographs/kasr/7.jpeg";
+import kasr8 from "./images/Photographs/kasr/8.jpeg";
+import kasr9 from "./images/Photographs/kasr/9.jpeg";
+
+import laffair1 from "./images/Photographs/L_affaire/1.jpg";
+import laffair2 from "./images/Photographs/L_affaire/2.jpg";
+import laffair3 from "./images/Photographs/L_affaire/3.jpg";
+import laffair4 from "./images/Photographs/L_affaire/4.jpg";
+import laffair5 from "./images/Photographs/L_affaire/5.jpg";
+
+import lovem1 from "./images/Photographs/Love moschino/1.jpg";
+import lovem2 from "./images/Photographs/Love moschino/2.jpg";
+import lovem3 from "./images/Photographs/Love moschino/3.jpg";
+import lovem4 from "./images/Photographs/Love moschino/4.jpg";
+
+import manesar1 from "./images/Photographs/manesar residential project_/1.jpg";
+import manesar2 from "./images/Photographs/manesar residential project_/2.jpg";
+import manesar3 from "./images/Photographs/manesar residential project_/3.jpg";
+import manesar4 from "./images/Photographs/manesar residential project_/4.jpg";
+import manesar5 from "./images/Photographs/manesar residential project_/5.jpg";
+import manesar6 from "./images/Photographs/manesar residential project_/6.jpg";
+import manesar7 from "./images/Photographs/manesar residential project_/7.jpg";
+
+import neeta1 from "./images/Photographs/neeta lulla DLF Emporio/1.jpeg";
+import neeta2 from "./images/Photographs/neeta lulla DLF Emporio/2.jpeg";
+import neeta3 from "./images/Photographs/neeta lulla DLF Emporio/3.jpeg";
+import neeta4 from "./images/Photographs/neeta lulla DLF Emporio/4.jpeg";
+
+import opulan1 from "./images/Photographs/opulantcnmpics/1.jpg";
+import opulan2 from "./images/Photographs/opulantcnmpics/2.jpg";
+import opulan3 from "./images/Photographs/opulantcnmpics/3.jpg";
+import opulan4 from "./images/Photographs/opulantcnmpics/4.jpg";
+import opulan5 from "./images/Photographs/opulantcnmpics/5.jpg";
+import opulan6 from "./images/Photographs/opulantcnmpics/6.jpg";
+
+import prataps1 from "./images/Photographs/partap shoes/1.jpg";
+import prataps2 from "./images/Photographs/partap shoes/2.jpg";
+import prataps3 from "./images/Photographs/partap shoes/3.jpg";
+import prataps4 from "./images/Photographs/partap shoes/4.jpg";
+import prataps5 from "./images/Photographs/partap shoes/5.jpg";
+import prataps6 from "./images/Photographs/partap shoes/6.jpg";
+import prataps7 from "./images/Photographs/partap shoes/7.jpg";
+
+import pgreen1 from "./images/Photographs/project green salon/1.jpg";
+import pgreen2 from "./images/Photographs/project green salon/2.jpg";
+import pgreen3 from "./images/Photographs/project green salon/3.jpg";
+import pgreen4 from "./images/Photographs/project green salon/4.jpg";
+import pgreen5 from "./images/Photographs/project green salon/5.jpg";
+import pgreen6 from "./images/Photographs/project green salon/6.jpg";
+import pgreen7 from "./images/Photographs/project green salon/7.jpg";
+import pgreen8 from "./images/Photographs/project green salon/8.jpg";
+import pgreen9 from "./images/Photographs/project green salon/9.jpg";
+import pgreen10 from "./images/Photographs/project green salon/10.jpg";
+import pgreen11 from "./images/Photographs/project green salon/11.jpg";
+
+import shervani1 from "./images/Photographs/Shervani hotel/1.png";
+import shervani2 from "./images/Photographs/Shervani hotel/2.png";
+import shervani3 from "./images/Photographs/Shervani hotel/3.png";
+import shervani4 from "./images/Photographs/Shervani hotel/4.png";
+
+import fern1 from "./images/Photographs/The Fern Hillside Resort/1.jpg";
+import fern2 from "./images/Photographs/The Fern Hillside Resort/2.jpg";
+import fern3 from "./images/Photographs/The Fern Hillside Resort/3.jpg";
+import fern4 from "./images/Photographs/The Fern Hillside Resort/4.jpg";
+
+import vanh1 from "./images/Photographs/Van heusen/1.png";
+import vanh2 from "./images/Photographs/Van heusen/2.png";
+import vanh3 from "./images/Photographs/Van heusen/3.png";
+import vanh4 from "./images/Photographs/Van heusen/4.png";
+
 const HeroSection = {
 	title: "Design Your Confort Zone",
 	description:
@@ -139,6 +275,19 @@ const services = [
 		description:
 			"Throughout the construction process, regular site visits take place to ensure accuracy in the build. The PID team believes communication is essential to the development of the project. All changes throughout the process are issued through written documentation of site instructions and approved by clients before processed.",
 	},
+];
+
+const heroCarousel = [
+	{ location: hero1 },
+	{ location: hero2 },
+	{ location: hero3 },
+	{ location: hero4 },
+	{ location: hero5 },
+	{ location: hero6 },
+	{ location: hero7 },
+	{ location: hero8 },
+	{ location: hero9 },
+	{ location: hero10 },
 ];
 
 const ourWorks = [
@@ -245,6 +394,16 @@ const ourWorks = [
 		],
 		bestImage: cnmpratapnagar1,
 	},
+	{
+		title: "CNM Dwarka",
+		locations: [
+			{ location: cnmdwarka1 },
+			{ location: cnmdwarka2 },
+			{ location: cnmdwarka3 },
+			{ location: cnmdwarka4 },
+		],
+		bestImage: cnmpratapnagar1,
+	},
 
 	{
 		title: "Bellevouise",
@@ -257,356 +416,212 @@ const ourWorks = [
 		bestImage: Bellevouise1,
 	},
 
-	// not found
 	{
-		title: "I'D SHOES",
+		title: "Abros",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: Abros1 },
+			{ location: Abros2 },
+			{ location: Abros3 },
+			{ location: Abros4 },
+			{ location: Abros5 },
+			{ location: Abros6 },
 		],
-		bestImage: image1,
+		bestImage: Abros1,
 	},
 	{
-		title: "BlackBerry's",
+		title: "Allen Solly",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: allenSolly1 },
+			{ location: allenSolly2 },
+			{ location: allenSolly3 },
+			{ location: allenSolly4 },
 		],
-		bestImage: image1,
+		bestImage: allenSolly1,
 	},
 	{
-		title: "Raymond's",
+		title: "BlackBerrys",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: blackberry1 },
+			{ location: blackberry2 },
+			{ location: blackberry3 },
+			{ location: blackberry4 },
 		],
-		bestImage: image1,
-	},
-	{
-		title: "Diwan Sakeb",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Hugo Boss",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Spencer's Hyper market",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Stanmax",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Neerus",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "kasr",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Looks salon",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Van heusen",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Bindals",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Indian Terrain",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "PC JEWELLERS",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Madura Garments",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Delco Shoes",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Wings Shoes",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "GIVO",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Provogue",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Madame",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Colorplus",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Neeta Lulla - DLF Emporio",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
-	},
-	{
-		title: "Love Moschino",
-		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
-		],
-		bestImage: image1,
+		bestImage: blackberry1,
 	},
 	{
 		title: "Bombay Selection",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: bombay1 },
+			{ location: bombay2 },
+			{ location: bombay3 },
+			{ location: bombay4 },
 		],
-		bestImage: image1,
+		bestImage: bombay1,
 	},
 	{
-		title: "U.S Polo",
+		title: "Color Plus",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: colorp1 },
+			{ location: colorp2 },
+			{ location: colorp3 },
+			{ location: colorp4 },
+			{ location: colorp5 },
+			{ location: colorp6 },
+			{ location: colorp7 },
+			{ location: colorp8 },
+			{ location: colorp9 },
 		],
-		bestImage: image1,
+		bestImage: colorp1,
 	},
 	{
-		title: "Allen Solly /Louis Phillipe",
+		title: "Crocs",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: crocs1 },
+			{ location: crocs2 },
+			{ location: crocs3 },
+			{ location: crocs4 },
+			{ location: crocs5 },
+			{ location: crocs6 },
 		],
-		bestImage: image1,
+		bestImage: crocs1,
 	},
 	{
-		title: "Sulwhasoo - Ongoing",
+		title: "ID SHOES",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: ID1 },
+			{ location: ID2 },
+			{ location: ID3 },
+			{ location: ID4 },
 		],
-		bestImage: image1,
+		bestImage: ID1,
 	},
 	{
-		title: "Maisonduraine Salons - Ongoing",
+		title: "Kasr",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: kasr1 },
+			{ location: kasr2 },
+			{ location: kasr3 },
+			{ location: kasr4 },
+			{ location: kasr5 },
+			{ location: kasr6 },
+			{ location: kasr7 },
+			{ location: kasr8 },
+			{ location: kasr9 },
 		],
-		bestImage: image1,
 	},
 	{
-		title: "Shervani Hill Top Hotel, Nainital & Delhi",
+		title: "L-Affair",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: laffair1 },
+			{ location: laffair2 },
+			{ location: laffair3 },
+			{ location: laffair4 },
+			{ location: laffair5 },
 		],
-		bestImage: image1,
+		bestImage: laffair1,
 	},
 	{
-		title: "The duty free shop at International Airpot",
+		title: "Love Moschino",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: lovem1 },
+			{ location: lovem2 },
+			{ location: lovem3 },
+			{ location: lovem4 },
 		],
-		bestImage: image1,
+		bestImage: lovem1,
 	},
 	{
-		title: "BuzzRestaurant Bar City center mall Gurgaon",
+		title: "Manesar Residencial",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: manesar1 },
+			{ location: manesar2 },
+			{ location: manesar3 },
+			{ location: manesar4 },
+			{ location: manesar5 },
+			{ location: manesar6 },
+			{ location: manesar7 },
 		],
-		bestImage: image1,
 	},
 	{
-		title: "Reliance Energy BPO, Noida",
+		title: "Neeta Lulla DLF Emporio",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: neeta1 },
+			{ location: neeta2 },
+			{ location: neeta3 },
+			{ location: neeta4 },
 		],
-		bestImage: image1,
+		bestImage: neeta1,
 	},
 	{
-		title: "Sapient Technologies BPO, Gurgaon",
+		title: "CNM Opulant",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: opulan1 },
+			{ location: opulan2 },
+			{ location: opulan3 },
+			{ location: opulan4 },
+			{ location: opulan5 },
+			{ location: opulan6 },
 		],
-		bestImage: image1,
+		bestImage: opulan1,
 	},
 	{
-		title: "Indigo Airlines BPO, Gurgaon",
+		title: "Pratap SHoes",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: prataps1 },
+			{ location: prataps2 },
+			{ location: prataps3 },
+			{ location: prataps4 },
+			{ location: prataps5 },
+			{ location: prataps6 },
+			{ location: prataps7 },
 		],
-		bestImage: image1,
+		bestImage: prataps1,
 	},
 	{
-		title: "Best Western Hotel Ghaziabad",
+		title: "Project Green Salon",
 		locations: [
-			{ location: image1 },
-			{ location: image2 },
-			{ location: image1 },
-			{ location: image2 },
+			{ location: pgreen1 },
+			{ location: pgreen2 },
+			{ location: pgreen3 },
+			{ location: pgreen4 },
+			{ location: pgreen5 },
+			{ location: pgreen6 },
+			{ location: pgreen7 },
+			{ location: pgreen8 },
+			{ location: pgreen9 },
+			{ location: pgreen10 },
+			{ location: pgreen11 },
 		],
-		bestImage: image1,
+	},
+	{
+		title: "Shervani Hotel",
+		locations: [
+			{ location: shervani1 },
+			{ location: shervani2 },
+			{ location: shervani3 },
+			{ location: shervani4 },
+		],
+		bestImage: shervani1,
+	},
+	{
+		title: "The Fern HillSide Resort",
+		locations: [
+			{ location: fern1 },
+			{ location: fern2 },
+			{ location: fern3 },
+			{ location: fern4 },
+		],
+		bestImage: fern1,
+	},
+	{
+		title: "Van Heusen",
+		locations: [
+			{ location: vanh1 },
+			{ location: vanh2 },
+			{ location: vanh3 },
+			{ location: vanh4 },
+		],
+		bestImage: vanh1,
 	},
 ];
 
@@ -633,4 +648,11 @@ const teamMembers = [
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, saepe illum. Quaerat consequatur assumenda voluptatem officia nam natus esse aut.",
 	},
 ];
-export { AboutUsSection, HeroSection, ourWorks, services, teamMembers };
+export {
+	AboutUsSection,
+	HeroSection,
+	ourWorks,
+	services,
+	teamMembers,
+	heroCarousel,
+};

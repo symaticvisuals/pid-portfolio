@@ -11,6 +11,8 @@ import Companies from "./Companies";
 import MobileNavbar from "./components/MobileNavbar";
 import OurWorksNew from "./OurWorksNew";
 import WorkShowcase from "./WorkShowcase";
+import HeroCarousel from "./HeroCarousel";
+import ContactUs from "./ContactUs";
 
 const SectionChangeContext = React.createContext();
 
@@ -32,6 +34,9 @@ function Hero() {
 			{isSm ? <MobileNavbar /> : <Navbar />}
 
 			<HeroSection />
+			<div style={{ display: "flex", justifyContent: "center" }}>
+				<HeroCarousel />
+			</div>
 			<Companies />
 			<AboutUsSection />
 			<ServiceSection />
@@ -40,7 +45,7 @@ function Hero() {
 			>
 				{selected && work ? <WorkShowcase work={work} /> : <OurWorksNew />}
 			</SectionChangeContext.Provider>
-
+			<ContactUs />
 			<Footer />
 		</Box>
 	);

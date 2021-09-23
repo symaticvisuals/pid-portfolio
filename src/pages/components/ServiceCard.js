@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 		// position: "absolute",
 	},
 	heading: {
-		[theme.breakpoints.down("sm")]: {
+		[theme.breakpoints.down("md")]: {
 			textAlign: "center",
 		},
 	},
