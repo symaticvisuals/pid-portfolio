@@ -1,6 +1,3 @@
-import image1 from "./images/1.jpg";
-import image2 from "./images/7.jpg";
-
 //teamMembers
 import vishal from "./images/members/vishalpawar.png";
 import yash from "./images/members/vishalpawar.png";
