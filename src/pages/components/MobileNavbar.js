@@ -128,12 +128,14 @@ export default function MobileNavbar() {
 							</ListItem>
 						</Link>
 
-						<ListItem button key='Contact Us' className={classes.listLayout}>
-							<ListItemText
-								primary='Contact US'
-								classes={{ primary: classes.text }}
-							></ListItemText>
-						</ListItem>
+						<Link to='contact' spy={true} smooth={true}>
+							<ListItem button key='Contact Us' className={classes.listLayout}>
+								<ListItemText
+									primary='Contact US'
+									classes={{ primary: classes.text }}
+								></ListItemText>
+							</ListItem>
+						</Link>
 					</List>
 				</div>
 

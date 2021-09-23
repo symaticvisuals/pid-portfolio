@@ -25,6 +25,7 @@ const theme = createTheme({
 				"fontFamily": "Poppins, sans-serif",
 				"fontWeight": 600,
 				"color": "#454CFF",
+				"textAlign": "center",
 				// "background":
 				// 	"-webkit-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",
 				// "background": "-moz-linear-gradient(to right, #6777FF 0%, #FF386E 50%)",

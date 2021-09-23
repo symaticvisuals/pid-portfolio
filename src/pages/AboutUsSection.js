@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "space-evenly",
 		alignItems: "center",
 		width: "100%",
-		[theme.breakpoints.down("sm")]: {
+		[theme.breakpoints.down("xs")]: {
 			flexDirection: "column",
 			// textAlign: "center",
 			paddingLeft: "10px",
@@ -46,7 +46,9 @@ function AboutUsSection() {
 				<ScrollAnimation animateIn='fadeIn' animateOnce={true}>
 					<Box className={classes.aboutSection}>
 						<Box className={classes.container}>
-							<Typography variant='h2'>About Us</Typography>
+							<Typography variant='h2' style={{ textAlign: "left" }}>
+								About Us
+							</Typography>
 							<Typography variant='h6' className={classes.p1}>
 								We have been in this field more than twenty-five years and have
 								executed a vast variety of projects including showrooms,

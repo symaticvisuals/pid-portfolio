@@ -81,8 +81,9 @@ function Navbar() {
 					<Link to='works' spy={true} smooth={true}>
 						<Typography className={classes.navLinks}>Our Work</Typography>
 					</Link>
-
-					<Typography className={classes.navLinks}>Contact Us</Typography>
+					<Link to='contact' spy={true} smooth={true}>
+						<Typography className={classes.navLinks}>Contact Us</Typography>
+					</Link>
 				</Box>
 				<Box display='flex'>
 					<img

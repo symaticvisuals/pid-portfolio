@@ -1,14 +1,13 @@
 import { Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
-import hero from "../images/hero.png";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
 		paddingTop: "3vh",
-		marginTop: "15vh",
+		marginTop: "10vh",
 		padding: "0 5vw",
-		height: "70vh",
+		// height: "70vh",
 		display: "flex",
 		alignItems: "flex-start",
 		justifyContent: "center",
@@ -73,16 +72,8 @@ function HeroSection() {
 					COMFORT ZONE
 				</Typography>
 				<Typography variant='h5' className={classes.t4}>
-					Bringing your Dreams to Reality since 1976
+					INTERIOR SOLUTIONS PROVIDER
 				</Typography>
-				<div
-					style={{
-						display: "flex",
-						justifyContent: "center",
-					}}
-				>
-					<img src={hero} alt='hero' className={classes.heroImage} />
-				</div>
 			</Box>
 		</Box>
 	);
