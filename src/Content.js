@@ -1,8 +1,3 @@
-//teamMembers
-import vishal from "./images/members/vishalpawar.png";
-import yash from "./images/members/vishalpawar.png";
-import deepanshu from "./images/members/profile.png";
-
 import hero1 from "./images/Photographs/home page carousel/1.jpg";
 import hero2 from "./images/Photographs/home page carousel/2.jpeg";
 import hero3 from "./images/Photographs/home page carousel/3.jpg";
@@ -73,14 +68,6 @@ import cnmjalandar3 from "./images/Photographs/cnmjalandherpics/3.jpg";
 import cnmjalandar4 from "./images/Photographs/cnmjalandherpics/4.jpg";
 import cnmjalandar5 from "./images/Photographs/cnmjalandherpics/5.jpg";
 import cnmjalandar6 from "./images/Photographs/cnmjalandherpics/6.jpg";
-
-import cnmpratapnagar1 from "./images/Photographs/cnmlajpatnagarpics/1.jpg";
-import cnmpratapnagar2 from "./images/Photographs/cnmlajpatnagarpics/2.jpg";
-import cnmpratapnagar3 from "./images/Photographs/cnmlajpatnagarpics/3.jpg";
-import cnmpratapnagar4 from "./images/Photographs/cnmlajpatnagarpics/4.jpg";
-import cnmpratapnagar5 from "./images/Photographs/cnmlajpatnagarpics/5.jpg";
-import cnmpratapnagar6 from "./images/Photographs/cnmlajpatnagarpics/6.jpg";
-import cnmpratapnagar7 from "./images/Photographs/cnmlajpatnagarpics/7.jpg";
 
 import Bellevouise1 from "./images/Photographs/bellevouisepics/1.jpg";
 import Bellevouise2 from "./images/Photographs/bellevouisepics/2.jpg";
@@ -379,19 +366,6 @@ const ourWorks = [
 	},
 
 	{
-		title: "CNM Pratap Nagar",
-		locations: [
-			{ location: cnmpratapnagar1 },
-			{ location: cnmpratapnagar2 },
-			{ location: cnmpratapnagar3 },
-			{ location: cnmpratapnagar4 },
-			{ location: cnmpratapnagar5 },
-			{ location: cnmpratapnagar6 },
-			{ location: cnmpratapnagar7 },
-		],
-		bestImage: cnmpratapnagar1,
-	},
-	{
 		title: "CNM Dwarka",
 		locations: [
 			{ location: cnmdwarka1 },
@@ -399,7 +373,7 @@ const ourWorks = [
 			{ location: cnmdwarka3 },
 			{ location: cnmdwarka4 },
 		],
-		bestImage: cnmpratapnagar1,
+		bestImage: cnmdwarka1,
 	},
 
 	{
@@ -622,34 +596,4 @@ const ourWorks = [
 	},
 ];
 
-const teamMembers = [
-	{
-		name: "Vishal Pawar",
-		image: vishal,
-		title: " Diploma in Acting from WWI Mumbai",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi natus corporis alias provident sed doloribus facere recusandae tempore incidunt aspernatur!",
-	},
-	{
-		name: "Yash",
-		image: yash,
-		title: "I'm an actor, theatre practitioner",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, saepe illum. Quaerat consequatur assumenda voluptatem officia nam natus esse aut.",
-	},
-	{
-		name: "Deepanshu Goel",
-		image: deepanshu,
-		title: "I'm a Full Stack Developer, UI/UX Designer",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, saepe illum. Quaerat consequatur assumenda voluptatem officia nam natus esse aut.",
-	},
-];
-export {
-	AboutUsSection,
-	HeroSection,
-	ourWorks,
-	services,
-	teamMembers,
-	heroCarousel,
-};
+export { AboutUsSection, HeroSection, ourWorks, services, heroCarousel };

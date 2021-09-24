@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
 	},
 	subheading: {
 		textAlign: "center",
+		[theme.breakpoints.down("sm")]: {
+			fontSize: "1.2rem",
+		},
 	},
 }));
 

@@ -25,7 +25,6 @@ function WorkCard({ workObj }) {
 								<img className='card__thumb' src={workObj.bestImage} alt='' />
 								<div className='card__header-text'>
 									<h3 className='card__title'>{workObj.title}</h3>
-									<span className='card__status'>1 hour ago</span>
 								</div>
 							</div>
 							<div className='card__description'>

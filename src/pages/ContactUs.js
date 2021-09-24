@@ -4,6 +4,8 @@ import React from "react";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		marginTop: "50px",
+
+		padding: "20px 0",
 	},
 	buttonForm: {
 		"all": "unset",
