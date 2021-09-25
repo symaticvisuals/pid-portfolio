@@ -6,7 +6,7 @@ import logo from "../images/logo/imageLogo.png";
 import CallRoundedIcon from "@material-ui/icons/CallRounded";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import MapRoundedIcon from "@material-ui/icons/MapRounded";
-import { Facebook, Instagram, Twitter } from "@material-ui/icons";
+import { Instagram } from "@material-ui/icons";
 import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({

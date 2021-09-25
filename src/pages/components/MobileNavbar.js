@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
-import { Box } from "@material-ui/core";
+
 import Drawer from "@material-ui/core/Drawer";
 import logo from "../../images/logo/logo-v2.png";
 import List from "@material-ui/core/List";
@@ -11,9 +11,6 @@ import ListItem from "@material-ui/core/ListItem";
 import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
 import ListItemText from "@material-ui/core/ListItemText";
 
-import facebook from "../../images/logo/fb.png";
-import twitter from "../../images/logo/twitter.png";
-import instagram from "../../images/logo/instagram.png";
 import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
