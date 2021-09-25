@@ -7,6 +7,7 @@ import CallRoundedIcon from "@material-ui/icons/CallRounded";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import MapRoundedIcon from "@material-ui/icons/MapRounded";
 import { Facebook, Instagram, Twitter } from "@material-ui/icons";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -97,23 +98,30 @@ function Footer() {
 							display: "flex",
 						}}
 					>
-						<Facebook className={classes.socialMedia} />
-						<Twitter className={classes.socialMedia} />
-						<Instagram className={classes.socialMedia} />
+						<a
+							href='https://www.instagram.com/pidprojects/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<Instagram className={classes.socialMedia} />
+						</a>
 					</div>
 					<div>
-						<Typography variant='h6' className={classes.footerNav}>
-							About Us
-						</Typography>
-						<Typography variant='h6' className={classes.footerNav}>
-							Services
-						</Typography>
-						<Typography variant='h6' className={classes.footerNav}>
-							Our Works
-						</Typography>
-						<Typography variant='h6' className={classes.footerNav}>
-							Contact Us
-						</Typography>
+						<Link to='about' spy={true} smooth={true}>
+							<Typography variant='h6' className={classes.footerNav}>
+								About Us
+							</Typography>
+						</Link>
+						<Link to='services' spy={true} smooth={true}>
+							<Typography variant='h6' className={classes.footerNav}>
+								Services
+							</Typography>
+						</Link>
+						<Link to='works' spy={true} smooth={true}>
+							<Typography variant='h6' className={classes.footerNav}>
+								Our Works
+							</Typography>
+						</Link>
 					</div>
 				</div>
 			</div>

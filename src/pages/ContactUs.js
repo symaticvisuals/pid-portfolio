@@ -46,7 +46,7 @@ function ContactUs() {
 				style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}
 			>
 				<button data-tf-popup='ThdfiVdR' className={classes.buttonForm}>
-					Launch me
+					Contact Us
 				</button>
 			</div>
 		</div>

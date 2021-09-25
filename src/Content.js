@@ -1,6 +1,6 @@
 import hero1 from "./images/Photographs/home page carousel/1.jpg";
 import hero2 from "./images/Photographs/home page carousel/2.jpeg";
-import hero3 from "./images/Photographs/home page carousel/3.jpg";
+
 import hero4 from "./images/Photographs/home page carousel/4.png";
 import hero5 from "./images/Photographs/home page carousel/5.jpg";
 import hero6 from "./images/Photographs/home page carousel/6.jpg";
@@ -11,7 +11,7 @@ import hero10 from "./images/Photographs/home page carousel/10.jpg";
 
 //Innisfree
 import Innisfree1 from "./images/Photographs/Innisfree/1.JPG";
-import Innisfree2 from "./images/Photographs/Innisfree/2.JPG";
+
 import Innisfree3 from "./images/Photographs/Innisfree/3.JPG";
 import Innisfree4 from "./images/Photographs/Innisfree/4.JPG";
 import Innisfree5 from "./images/Photographs/Innisfree/5.JPG";
@@ -264,7 +264,7 @@ const services = [
 const heroCarousel = [
 	{ location: hero1 },
 	{ location: hero2 },
-	{ location: hero3 },
+
 	{ location: hero4 },
 	{ location: hero5 },
 	{ location: hero6 },
@@ -279,7 +279,7 @@ const ourWorks = [
 		title: "Innisfree",
 		locations: [
 			{ location: Innisfree1 },
-			{ location: Innisfree2 },
+
 			{ location: Innisfree3 },
 			{ location: Innisfree4 },
 			{ location: Innisfree5 },
@@ -287,7 +287,7 @@ const ourWorks = [
 			{ location: Innisfree7 },
 			{ location: Innisfree8 },
 		],
-		bestImage: Innisfree2,
+		bestImage: Innisfree3,
 	},
 
 	{

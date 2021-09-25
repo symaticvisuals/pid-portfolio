@@ -1,9 +1,20 @@
+import { makeStyles } from "@material-ui/core";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { heroCarousel } from "../Content";
 import HeroCarouselPreview from "./components/HeroCarouselPreview";
 
+const useStyles = makeStyles((theme) => ({
+	root: {
+		width: "80%",
+		[theme.breakpoints.down("sm")]: {
+			width: "100%",
+		},
+	},
+}));
+
 function HeroCarousel() {
+	const classes = useStyles();
 	const slider = useRef(null);
 
 	const settings = {
@@ -22,8 +33,9 @@ function HeroCarousel() {
 		focusOnSelect: true,
 		// fade: true,
 	};
+
 	return (
-		<div style={{ width: "80%" }}>
+		<div className={classes.root}>
 			<Slider {...settings} ref={slider}>
 				{heroCarousel.map((imagePreview, index) => (
 					<HeroCarouselPreview imagePreview={imagePreview} />

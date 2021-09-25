@@ -2,8 +2,7 @@ import { Box, makeStyles, Typography } from "@material-ui/core";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../images/logo/logo-v2.png";
-import facebook from "../images/logo/fb.png";
-import twitter from "../images/logo/twitter.png";
+
 import instagram from "../images/logo/instagram.png";
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -46,6 +45,32 @@ const useStyles = makeStyles((theme) => ({
 		width: "20px",
 		margin: "0 10px",
 	},
+
+	buttonForm: {
+		"all": "unset",
+		"fontFamily": "Poppins",
+		"display": "inline-block",
+		"maxWidth": "100%",
+		"whiteSpace": "nowrap",
+		"overflow": "hidden",
+		"textOverflow": "ellipsis",
+		"backgroundColor": "#454CFF",
+		"color": "#ffffff",
+		"fontSize": "15px",
+		"borderRadius": "25px",
+		"padding": "0 15px",
+		"fontWeight": "500",
+		"height": "auto",
+		"cursor": "pointer",
+		"lineHeight": "40px",
+		"textAlign": "center",
+		"margin": 0,
+		"textDecoration": "none",
+		"&:hover": {
+			backgroundColor: "#454CFF",
+			boxShadow: "0px 10px 16px rgb(69, 76, 255, 0.3)",
+		},
+	},
 }));
 function Navbar() {
 	const classes = useStyles();
@@ -79,28 +104,24 @@ function Navbar() {
 					</Link>
 
 					<Link to='works' spy={true} smooth={true}>
-						<Typography className={classes.navLinks}>Our Work</Typography>
-					</Link>
-					<Link to='contact' spy={true} smooth={true}>
-						<Typography className={classes.navLinks}>Contact Us</Typography>
+						<Typography className={classes.navLinks}>Our Works</Typography>
 					</Link>
 				</Box>
-				<Box display='flex'>
-					<img
-						src={facebook}
-						alt='facebook'
-						className={classes.socialMedia}
-					></img>
-					<img
-						src={twitter}
-						alt='twitter'
-						className={classes.socialMedia}
-					></img>
-					<img
-						src={instagram}
-						alt='instagram'
-						className={classes.socialMedia}
-					></img>
+				<Box display='flex' style={{ alignItems: "center" }}>
+					<button data-tf-popup='ThdfiVdR' className={classes.buttonForm}>
+						Contact Us
+					</button>
+					<a
+						href='https://www.instagram.com/pidprojects/'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<img
+							src={instagram}
+							alt='instagram'
+							className={classes.socialMedia}
+						></img>
+					</a>
 				</Box>
 			</Box>
 		</Box>

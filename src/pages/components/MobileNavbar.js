@@ -51,9 +51,10 @@ const useStyles = makeStyles({
 		// padding: "15px 20px",
 	},
 	text: {
-		fontWeight: "700",
+		fontWeight: "500",
 		fontSize: "1.3rem",
-		fontFamily: "Sora, sans-serif",
+		fontFamily: "Poppins, sans-serif",
+		width: "100%",
 	},
 	socialMedia: {
 		width: "20px",
@@ -120,9 +121,9 @@ export default function MobileNavbar() {
 							</ListItem>
 						</Link>
 						<Link to='works' spy={true} smooth={true}>
-							<ListItem button key='Out Work' className={classes.listLayout}>
+							<ListItem button key='Out Works' className={classes.listLayout}>
 								<ListItemText
-									primary='Our Work'
+									primary='Our Works'
 									classes={{ primary: classes.text }}
 								></ListItemText>
 							</ListItem>
@@ -131,31 +132,13 @@ export default function MobileNavbar() {
 						<Link to='contact' spy={true} smooth={true}>
 							<ListItem button key='Contact Us' className={classes.listLayout}>
 								<ListItemText
-									primary='Contact US'
+									primary='Contact Us'
 									classes={{ primary: classes.text }}
 								></ListItemText>
 							</ListItem>
 						</Link>
 					</List>
 				</div>
-
-				<Box display='flex'>
-					<img
-						src={facebook}
-						alt='facebook'
-						className={classes.socialMedia}
-					></img>
-					<img
-						src={twitter}
-						alt='twitter'
-						className={classes.socialMedia}
-					></img>
-					<img
-						src={instagram}
-						alt='instagram'
-						className={classes.socialMedia}
-					></img>
-				</Box>
 			</div>
 		</div>
 	);

@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "space-evenly",
 		alignItems: "center",
 		width: "100%",
+		[theme.breakpoints.down("sm")]: {
+			paddingLeft: "10px",
+			paddingRight: "10px",
+		},
 		[theme.breakpoints.down("xs")]: {
 			flexDirection: "column",
 			// textAlign: "center",
@@ -32,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	p1: {
 		[theme.breakpoints.down("sm")]: {
-			fontSize: "1rem",
+			fontSize: "0.9rem",
 			padding: "0 10px",
 			textAlign: "left",
 		},

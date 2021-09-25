@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 		width: "14vw",
 		height: "auto",
 		[theme.breakpoints.down("sm")]: {
-			width: "20vw",
+			width: "25vw",
 		},
 	},
 	heading: {
@@ -43,6 +43,11 @@ const useStyles = makeStyles((theme) => ({
 		[theme.breakpoints.down("sm")]: {
 			fontSize: "1.6rem",
 		},
+	},
+	imageContainer: {
+		display: "flex",
+		justifyContent: "space-around",
+		width: "100%",
 	},
 }));
 
@@ -54,13 +59,7 @@ function Companies() {
 				<Typography variant='h4' className={classes.heading}>
 					companies we have worked with
 				</Typography>
-				<Box
-					style={{
-						display: "flex",
-						justifyContent: "space-evenly",
-						width: "100%",
-					}}
-				>
+				<Box className={classes.imageContainer}>
 					<img
 						src={company1}
 						alt='company1'
