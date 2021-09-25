@@ -49,9 +49,9 @@ const useStyles = makeStyles((theme) => ({
 	},
 	contactInfo: {
 		display: "flex",
-		[theme.breakpoints.down("sm")]: {
-			justifyContent: "center",
-		},
+		// [theme.breakpoints.down("sm")]: {
+		// 	justifyContent: "center",
+		// },
 	},
 	phoneNumber: {
 		textDecoration: "none",
@@ -65,7 +65,6 @@ const useStyles = makeStyles((theme) => ({
 		[theme.breakpoints.down("sm")]: {
 			marginTop: "20px",
 			marginBottom: "0",
-			textAlign: "center",
 		},
 	},
 }));
