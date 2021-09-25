@@ -152,7 +152,7 @@ function Footer() {
 					<div className={classes.contactInfo}>
 						<MapRoundedIcon />
 						<Typography className={classes.phoneNumber}>
-							142, Mundka Industrial Area, New Delhi
+							25B/2, Khasra Number 83/11/2, Mundka Udyog Nagar
 						</Typography>
 					</div>
 				</div>
