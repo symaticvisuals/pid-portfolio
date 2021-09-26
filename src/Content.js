@@ -14,28 +14,18 @@ import Innisfree1 from "./images/Photographs/Innisfree/1.JPG";
 
 import Innisfree3 from "./images/Photographs/Innisfree/3.JPG";
 import Innisfree4 from "./images/Photographs/Innisfree/4.JPG";
-import Innisfree5 from "./images/Photographs/Innisfree/5.JPG";
+import Innisfree5 from "./images/Photographs/Innisfree/5.png";
 import Innisfree6 from "./images/Photographs/Innisfree/6.JPG";
 import Innisfree7 from "./images/Photographs/Innisfree/7.JPG";
 import Innisfree8 from "./images/Photographs/Innisfree/8.JPG";
+import Innisfree9 from "./images/Photographs/Innisfree/9.png";
+import Innisfree10 from "./images/Photographs/Innisfree/10.png";
 
 //Octave
 import Octave1 from "./images/Photographs/Octave/1.jpg";
 import Octave2 from "./images/Photographs/Octave/2.jpg";
 import Octave3 from "./images/Photographs/Octave/3.jpg";
 import Octave4 from "./images/Photographs/Octave/4.jpg";
-
-//Redtape
-import Redtape1 from "./images/Photographs/Redtape/1.jpg";
-import Redtape2 from "./images/Photographs/Redtape/2.jpg";
-import Redtape3 from "./images/Photographs/Redtape/3.jpg";
-import Redtape4 from "./images/Photographs/Redtape/4.jpg";
-import Redtape5 from "./images/Photographs/Redtape/5.jpg";
-import Redtape6 from "./images/Photographs/Redtape/6.jpg";
-import Redtape7 from "./images/Photographs/Redtape/7.jpg";
-import Redtape8 from "./images/Photographs/Redtape/8.jpg";
-import Redtape9 from "./images/Photographs/Redtape/9.jpg";
-import Redtape10 from "./images/Photographs/Redtape/10.jpg";
 
 //MeenaBazaar
 import MeenaBazaar1 from "./images/Photographs/MeenaBazaar/1.jpg";
@@ -199,6 +189,11 @@ import vanh2 from "./images/Photographs/Van heusen/2.png";
 import vanh3 from "./images/Photographs/Van heusen/3.png";
 import vanh4 from "./images/Photographs/Van heusen/4.png";
 
+import pcj1 from "./images/Photographs/PCJwellers/1.JPG";
+import pcj2 from "./images/Photographs/PCJwellers/2.JPG";
+import pcj3 from "./images/Photographs/PCJwellers/3.JPG";
+import pcj4 from "./images/Photographs/PCJwellers/4.JPG";
+
 const HeroSection = {
 	title: "Design Your Confort Zone",
 	description:
@@ -286,6 +281,8 @@ const ourWorks = [
 			{ location: Innisfree6 },
 			{ location: Innisfree7 },
 			{ location: Innisfree8 },
+			{ location: Innisfree9 },
+			{ location: Innisfree10 },
 		],
 		bestImage: Innisfree3,
 	},
@@ -336,23 +333,6 @@ const ourWorks = [
 	},
 
 	{
-		title: "Red Tape",
-		locations: [
-			{ location: Redtape1 },
-			{ location: Redtape2 },
-			{ location: Redtape3 },
-			{ location: Redtape4 },
-			{ location: Redtape5 },
-			{ location: Redtape6 },
-			{ location: Redtape7 },
-			{ location: Redtape8 },
-			{ location: Redtape9 },
-			{ location: Redtape10 },
-		],
-		bestImage: Redtape9,
-	},
-
-	{
 		title: "CNM Jalandhar",
 		locations: [
 			{ location: cnmjalandar1 },
@@ -374,6 +354,16 @@ const ourWorks = [
 			{ location: cnmdwarka4 },
 		],
 		bestImage: cnmdwarka1,
+	},
+	{
+		title: "PC Jwellers",
+		locations: [
+			{ location: pcj1 },
+			{ location: pcj2 },
+			{ location: pcj3 },
+			{ location: pcj4 },
+		],
+		bestImage: pcj1,
 	},
 
 	{
