@@ -23,17 +23,20 @@ function AboutUsCounter() {
 			<div className={classes.root}>
 				<div>
 					<Counters
-						number={500}
+						number={1000}
 						description={"Projects done over 3+ decades"}
 					/>
-					<Counters number={75} description={"Sq. ft. of Civil & Interiors"} />
+					<Counters
+						number={1000000}
+						description={"Sq. ft. of Civil & Interiors"}
+					/>
 				</div>
 				<div>
 					<Counters
-						number={20}
+						number={2000000}
 						description={"Sq. ft. of  General Contracting"}
 					/>
-					<Counters number={5} description={"Sq. ft. of Design & Build"} />
+					<Counters number={600000} description={"Sq. ft. of Design & Build"} />
 				</div>
 			</div>
 		</ScrollAnimation>

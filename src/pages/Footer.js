@@ -133,7 +133,7 @@ function Footer() {
 						<CallRoundedIcon />
 						<Typography>
 							<a href='tel:+91818079110' className={classes.phoneNumber}>
-								+91 818079110
+								+91 9818079110
 							</a>
 						</Typography>
 					</div>
@@ -141,10 +141,10 @@ function Footer() {
 						<EmailRoundedIcon />
 						<Typography>
 							<a
-								href='mailto:projects@pidprojects.in'
+								href='mailto:mb@pidprojects.in'
 								className={classes.phoneNumber}
 							>
-								projects@pidprojects.in
+								mb@pidprojects.in
 							</a>
 						</Typography>
 					</div>

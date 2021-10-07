@@ -12,11 +12,11 @@ const useStyles = makeStyles((theme) => ({
 		margin: "10px 5px",
 		background: "#E7ECF6",
 		height: "180px",
-		width: "180px",
+		width: "190px",
 		borderRadius: "20px",
 		[theme.breakpoints.down("sm")]: {
 			height: "160px",
-			width: "160px",
+			width: "180px",
 		},
 	},
 	heading: {
@@ -33,17 +33,21 @@ function Couters({ number, description }) {
 
 	const duration = 2;
 	useEffect(() => {
-		let start = 0;
+		let start = number / 2;
 
 		const end = number;
 
 		if (start === end) return;
-		let totalMilSecDur = duration;
-		let incrementTime = (totalMilSecDur / end) * 1000;
+
+		let incrementTime = 0.001;
 
 		let timer = setInterval(() => {
-			start += 1;
-			setCount(start + number);
+			if (number > 1000) {
+				start += 1000;
+			} else {
+				start += 1;
+			}
+			setCount(start);
 			if (start === end) clearInterval(timer);
 		}, incrementTime);
 	}, [number, duration]);
